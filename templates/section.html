@@ -1,0 +1,25 @@
+{% macro create_subsection(subsection) %}
+  <div class="mb-4 p-4 border-l-4 border-blue-500 bg-gray-100 rounded-md shadow-sm">
+    <div class="text-lg font-semibold text-gray-800">{{ subsection.title }}</div>
+    {% if subsection.text %}
+      <div class="text-gray-600">{{ markdown(subsection.text) }}</div>
+    {% endif %}
+  </div>
+{% endmacro %}
+
+{% macro create_section(section) %}
+  <div
+      {% if section.id %}
+      id="{{ section.id }}"
+      {% endif %}
+      class="scrollable-section p-6 bg-white border border-gray-300 shadow-lg rounded-lg mb-6"
+  >
+    <div class="text-primary text-3xl font-bold text-blue-700 mb-4 border-b-2 pb-2">{{ section.title }}</div>
+    {% if section.text %}
+      <div class="text-gray-700">{{ markdown(section.text) }}</div>
+    {% endif %}
+    {% for subsection in section.subsections %}
+      {{ create_subsection(subsection) }}
+    {% endfor %}
+  </div>
+{% endmacro %}

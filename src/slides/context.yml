@@ -1,0 +1,11 @@
+parts:
+  - title: Slides
+    type: table
+    columns:
+      description:
+        display_name: Description
+        size: 1
+        cell_class: font-semibold
+      slide:
+        display_name: Slides
+        size: 1

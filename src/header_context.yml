@@ -1,0 +1,12 @@
+nav:
+  content:
+    - link: /
+      text: Home
+    - link: /#people
+      text: People
+    - link: /#details
+      text: Details
+    - link: /#schedule
+      text: Schedule
+    - link: /slides
+      text: Slides

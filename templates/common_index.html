@@ -1,0 +1,42 @@
+{% extends 'base/main_layout.html' %}
+{% from 'part.html' import create_part with context %}
+
+{% block content %}
+
+  <div id="contentWrapper" class="w-full max-w-full flex flex-col gap-y-6 transition-all duration-300 pt-10 sm:pt-20 md:pt-10 lg:pt-10">
+    {% for part in parts %}
+      {{ create_part(part) }}
+    {% endfor %}
+  </div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const sidebar = document.getElementById("sidebar");
+      const toggleButton = document.getElementById("toggleSidebar");
+      const contentWrapper = document.getElementById("contentWrapper");
+  
+      if (window.innerWidth < 640) {
+        contentWrapper.classList.add("pt-20");
+      }
+  
+      toggleButton.addEventListener("click", function () {
+        if (sidebar.classList.contains("-translate-x-64")) {
+          sidebar.classList.remove("-translate-x-64");
+          contentWrapper.style.marginLeft = sidebar.offsetWidth + "px";
+        } else {
+          sidebar.classList.add("-translate-x-64");
+          contentWrapper.style.marginLeft = "0px";
+        }
+      });
+    });
+  </script>
+  
+
+  <style>
+    /* Hide sidebar initially */
+    #sidebar.-translate-x-64 {
+      transform: translateX(-100%);
+    }
+  </style>
+
+{% endblock %}

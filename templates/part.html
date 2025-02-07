@@ -1,0 +1,13 @@
+{% from 'table.html' import create_table with context %}
+{% from 'section.html' import create_section with context %}
+{% from 'people.html' import create_people with context %}
+
+{% macro create_part(part_data) %}
+  {% if part_data.type == 'table' %}
+    {{ create_table(part_data) }}
+  {% elif part_data.type == 'section' %}
+    {{ create_section(part_data) }}
+  {% elif part_data.type == 'people' %}
+    {{ create_people(part_data) }}
+  {% endif %}
+{% endmacro %}

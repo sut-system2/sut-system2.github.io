@@ -1,0 +1,19 @@
+title: SUT-SYSTEM2
+
+template: syllabus.html
+
+# navbar
+nav:
+  patch: pages/index/nav.yml
+
+# metatags
+meta:
+  patch: pages/index/meta.yml
+
+# configurations
+config:
+  patch: pages/index/config.yml
+
+patch-syllabus: pages/index/syllabus.yml
+patch-instructors: pages/index/instructors.yml
+
