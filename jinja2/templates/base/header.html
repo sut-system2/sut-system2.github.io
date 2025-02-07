@@ -1,13 +1,8 @@
-<nav id="sidebar" class="bg-gradient-to-b from-blue-900 to-blue-600 shadow-md h-screen w-64 fixed top-0 left-0 z-50 flex flex-col p-6 transition-all duration-300 -translate-x-64 md:w-64 md:h-screen md:translate-x-0">
+<nav id="sidebar" class="bg-gradient-to-b from-blue-900 to-blue-600 shadow-md h-screen w-64 fixed top-0 left-0 z-50 flex flex-col p-6 transition-all duration-300 -translate-x-64">
   <!-- Toggle Button -->
   <button id="toggleSidebar" class="absolute top-4 right-[-40px] bg-blue-900 text-white px-3 py-1 rounded-md shadow-lg z-50">
     ☰
   </button>
-
-  <!-- Logo -->
-  <!-- <a href="/" class="flex items-center text-white text-2xl font-bold tracking-wide mb-8">
-    SUT-SYSTEM2
-  </a> -->
 
   <!-- Navigation Links -->
   <div class="flex flex-col space-y-4 text-white text-lg">
@@ -28,10 +23,24 @@
 <style>
   @media (max-width: 768px) {
     #sidebar.active {
-      width: 100vw;
-      height: 100vh;
       transform: translateX(0);
     }
+  }
+
+  /* Overlay styling */
+  .overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 40;
+  }
+
+  .overlay.active {
+    display: block;
   }
 </style>
 
@@ -40,10 +49,12 @@
     const sidebar = document.getElementById('sidebar');
     const toggleButton = document.getElementById('toggleSidebar');
     const overlay = document.createElement('div');
-    const navLinks = document.querySelectorAll('#sidebar a'); // Select all links in sidebar
+    const navLinks = document.querySelectorAll('#sidebar a');
 
     overlay.classList.add('overlay');
     document.body.appendChild(overlay);
+
+    // Sidebar should be hidden initially (No class needed here)
 
     // Toggle sidebar on button click
     toggleButton.addEventListener('click', function () {
@@ -61,11 +72,10 @@
     navLinks.forEach(link => {
         link.addEventListener('click', function () {
             if (this.getAttribute('href').startsWith('/#')) {
-                // It's an anchor link, close the sidebar
                 sidebar.classList.remove('active');
                 overlay.classList.remove('active');
             }
         });
     });
-});
+  });
 </script>

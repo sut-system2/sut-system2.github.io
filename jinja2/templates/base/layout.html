@@ -3,10 +3,11 @@
 
 <head>
   <meta charset="utf-8">
-  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>{% block title %}SUT-SYSTEM2{% endblock %}</title>
+
+  <link rel="icon" type="image/x-icon" href="{{ static('favicon.ico') }}">
 
   <script src="{{ static('js/fontawesome.js') }}"></script>
   <link href="{{ static('css/main.css') }}" rel="stylesheet" />
@@ -37,6 +38,7 @@
   <script src="{{ static('js/tailwindcss.js') }}"></script>
   <script src="{{ static('js/jquery-3.6.4.min.js') }}"></script>
 </head>
+
 
 <body class="scroll-smooth">
   {% block body %}

@@ -1,4 +1,4 @@
-{% macro create_people(people_data) %}
+{% macro create_blank(people_data) %}
 <div
     {% if people_data.id %}
     id="{{ people_data.id }}"
@@ -15,9 +15,7 @@
       {% for person in role.people %}
       <div class="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300 text-center p-4">
         
-          {% if person.website %}
-          <a href="{{ person.website }}" target="_blank" class="bg-white rounded-lg overflow-hidden text-center">
-          {% endif %}
+
           <img src="{{ static_or_abs_link(person.pic) }}" alt="{{ person.name }}"
                class="w-32 h-32 mx-auto rounded-full object-cover border-4 border-gray-300">
 
