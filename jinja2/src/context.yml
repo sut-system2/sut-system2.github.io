@@ -4,7 +4,7 @@ parts:
   - title: Objective
     type: section
     text: >
-      TODO
+      In recent years, the significant advancements in artificial intelligence have been primarily driven by the paradigm of pre-training on large-scale datasets. However, despite these improvements, AI systems continue to lag behind human performance in complex cognitive tasks, particularly in reasoning-based or "System-2" problems that require multi-step solutions. Merely increasing the volume of training data is insufficient to bridge this gap, especially as the availability of novel data diminishes while the demand for reasoning capabilities grows exponentially. To address these challenges, various approaches have been developed to enhance AI performance in System-2 tasks. These include neuro-symbolic methods that integrate symbolic reasoning with neural networks, program synthesis, test-time computation techniques for large language models (LLMs), and the use of LLMs as agents capable of utilizing diverse tools. This course aims to explore the landscape of System-2 reasoning tasks and the innovative methodologies designed to improve AI’s ability to solve them.
   - title: Instruction Team
     id: people
     type: people
