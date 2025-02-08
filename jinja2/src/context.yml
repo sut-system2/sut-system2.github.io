@@ -35,17 +35,17 @@ parts:
   - title: Contacting Instruction Team
     type: section
     text: >
-      TODO
+      
   - title: Content
     id: details
     type: section
     subsections:
       - title: Prerequisites
         text: >
-          TODO
+          
       - title: Classes
         text: >
-          TODO
+          
       - title: Grading
         text: >
           Please note that grades will be calculated out of $22.0$, 
@@ -60,11 +60,11 @@ parts:
       
       - title: Exam
         text: >
-          TODO
+          
       
       - title: Homeworks
         text: >
-          TODO
+          
       - title: Collaboration, Academic Honesty, and Plagiarism
         text: >
           There will be a zero-tolerance policy for cheating or copying homework assignments. The first time you
@@ -100,213 +100,3 @@ parts:
       deadlines:
         display_name: Deadlines
         size: 4
-    rows:
-      - date: Sun, Mehr 1
-        session: '1'
-        description: |
-          Introduction & Intelligent Agents
-        materials: 
-        events:
-
-      - date: Tue, Mehr 3
-        session: '2'
-        description: |
-          Uninformed Search
-        materials:
-        events:
-
-      - date: Sun, Mehr 8
-        session: '3'
-        description: |
-          Uninformed Search
-        materials:
-        events:
-
-      - date: Tue, Mehr 10
-        session: '4'
-        description: |
-          Informed Search
-        materials:
-        events:
-      
-      - date: Sun, Mehr 15
-        session: '5'
-        description: |
-          Informed Search
-        materials:
-        events:
-
-      - date: Tue, Mehr 17
-        session: '6'
-        description: |
-          Local Search
-        materials:
-        events:
-        
-      - date: Sun, Mehr 22
-        session: '7'
-        description: |
-          Search in Continuous Spaces
-        materials:
-        events:
-
-      - date: Tue, Mehr 24
-        session: '8'
-        description: |
-          Constraint Satisfaction Problems
-        materials:
-        events:
-
-      - date: Tue, Mehr 29
-        session: '9'
-        description: |
-          Constraint Satisfaction Problems
-        materials:
-        events:
-
-      - date: Tue, Aban 1
-        session: '10'
-        description: |
-          Adversarial Search
-        materials:
-        events:
-
-      - date: Sun, Aban 6
-        session: '11'
-        description: |
-          Uncertainty & Inference
-        materials:
-        events:
-
-      - date: Tue, Aban 8
-        session: '12'
-        description: |
-          Bayesian Networks: Representation
-        materials:
-        events:
-
-      - date: Sun, Aban 13
-        session: '13'
-        description: |
-          Inference in Bayesian Networks: Exact
-        materials:
-        events:
-
-      - date: Tue, Aban 15
-        session: '14'
-        description: |
-          Inference in Bayesian Networks: Approximate
-        materials:
-        events:
-      
-      - date: Sun, Aban 20
-        session: '15'
-        description: |
-          Temporal Probability Models: Markov Chains & HMMs
-        materials:
-        events:
-
-      - date: Tue, Aban 22
-        session: '16'
-        description: |
-          Temporal Probability Models: Particle Filters
-        materials:
-        events:
-
-      - date: Sun, Aban 27
-        session: '17'
-        description: |
-          Learning in Bayesian Networks & Naive Bayes
-        materials:
-        events:
-
-      - date: Tue, Aban 29
-        session: '18'
-        description: |
-          Decision Tree
-        materials:
-        events:
-
-      - date: Sun, Azar 4
-        session: '19'
-        description: |
-          Concepts of Machine Learning
-        materials:
-        events:
-
-      - date: Tue, Azar 6
-        session: '20'
-        description: |
-          Regression & Optimization
-        materials:
-        events:
-
-      - date: Tue, Azar 11
-        session: '21'
-        description: |
-          Perceptron
-        materials:
-        events:
-
-      - date: Sun, Azar 13
-        session: '22'
-        description: |
-          Neural Networks
-        materials:
-        events:
-
-      - date: Sun, Azar 18
-        session: '23'
-        description: |
-          Neural Networks
-        materials:
-        events:
-
-      - date: Tue, Azar 20
-        session: '24'
-        description: |
-          Markov Decison Process
-        materials:
-        events:
-
-      - date: Sun, Azar 25
-        session: '25'
-        description: |
-          Value Iteration & Policy Iteration
-        materials:
-        events:
-
-      - date: Tue, Azar 27
-        session: '26'
-        description: |
-          Reinforcement Learning: Passive
-        materials:
-        events:
-
-      - date: Sun, Dey 2
-        session: '27'
-        description: |
-          Reinforcement Learning: Active
-        materials:
-        events:
-
-      - date: Sun, Dey 4
-        session: '28'
-        description: |
-          Reinforcement Learning: Approximate
-        materials:
-        events:
-
-      - date: Sun, Dey 9
-        session: '29'
-        description: |
-          Applications / Guest Lecturer
-        materials:
-        events:
-
-      - date: Sun, Dey 11
-        session: '30'
-        description: |
-          Applications / Guest Lecturer
-        materials:
-        events:
