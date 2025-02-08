@@ -48,35 +48,22 @@ parts:
           
       - title: Grading
         text: >
-          Please note that grades will be calculated out of $22.0$, 
-          with the respective grades for each section provided below:
-
-            - **Homework Assignments**: $???$
-              - Five Series, each $???$
-            - **Presentation**: $???$ point.
-            - **Quiz**: $???$ points.
-            - **Final Exam**: $???$ points.
 
       
       - title: Exam
         text: >
+        
           
-      
       - title: Homeworks
         text: >
           
       - title: Collaboration, Academic Honesty, and Plagiarism
         text: >
-          There will be a zero-tolerance policy for cheating or copying homework assignments. The first time you
-          are caught, we will refer you to the committee, and you will fail the course. Please refer
-          to the Education Committee's statement on homework etiquette.
 
   - title: Course Pages
     type: section
     text: >
-      - [**https://sut-system2.github.io/**](https://sut-system2.github.io/): This is the main page of our course and all exercises, slides and course resources will be placed in it.
-      
-      - [**Quera**](https://quera.org/course/add_to_course/course/18700/): Delivery of exercises and announcements will be done entirely through Quera. Make sure you enter an email on Quera that you check regularly. Your questions from the exercises will also be answered in Quera.
+
   - title: Schedule
     type: table
     id: schedule
