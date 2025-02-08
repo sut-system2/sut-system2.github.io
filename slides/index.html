@@ -44,107 +44,92 @@
   
   <div class="flex flex-col">
     
-      <nav id="sidebar" class="bg-gradient-to-b from-blue-900 to-blue-600 shadow-md h-screen w-64 fixed top-0 left-0 z-50 flex flex-col p-6 transition-all duration-300 -translate-x-64 md:w-64 md:h-screen md:translate-x-0">
-  <!-- Toggle Button -->
-  <button id="toggleSidebar" class="absolute top-4 right-[-40px] bg-blue-900 text-white px-3 py-1 rounded-md shadow-lg z-50">
-    ☰
-  </button>
-
-  <!-- Logo -->
-  <!-- <a href="/" class="flex items-center text-white text-2xl font-bold tracking-wide mb-8">
-    SUT-SYSTEM2
-  </a> -->
-
-  <!-- Navigation Links -->
-  <div class="flex flex-col space-y-4 text-white text-lg">
-    
-    
-    <a href="/" class="py-2 px-4 rounded-lg transition-colors duration-300 
-      
-        text-gray-200 hover:text-white hover:bg-white/10
-      ">
-      Home
+      <nav class="bg-gradient-to-b from-blue-900 to-blue-600 shadow-md w-full sticky top-0">
+  <div class="max-w-screen-2xl flex flex-wrap items-center justify-between md:justify-start mx-auto p-4 pb-0">
+    <a href="/" class="flex items-center mb-4">
+      <span class="self-center text-2xl font-semibold whitespace-nowrap text-white">SUT-SYSTEM2</span>
     </a>
-    
-    
-    <a href="/#people" class="py-2 px-4 rounded-lg transition-colors duration-300 
-      
-        text-gray-200 hover:text-white hover:bg-white/10
-      ">
-      People
-    </a>
-    
-    
-    <a href="/#details" class="py-2 px-4 rounded-lg transition-colors duration-300 
-      
-        text-gray-200 hover:text-white hover:bg-white/10
-      ">
-      Details
-    </a>
-    
-    
-    <a href="/#schedule" class="py-2 px-4 rounded-lg transition-colors duration-300 
-      
-        text-gray-200 hover:text-white hover:bg-white/10
-      ">
-      Schedule
-    </a>
-    
-    
-    <a href="/slides" class="py-2 px-4 rounded-lg transition-colors duration-300 
-      
-        bg-white/20 font-semibold
-      ">
-      Slides
-    </a>
-    
+    <button data-collapse-toggle="navbar-default" type="button"
+            class="inline-flex items-center p-2 w-10 h-10 justify-center mb-4 text-sm text-white-500 rounded-lg md:hidden hover:bg-white-100 focus:outline-none focus:ring-2 focus:ring-white-200 text-gray-400 hover:bg-white-700 focus:ring-white-600"
+            aria-controls="navbar-default" aria-expanded="false">
+      <span class="sr-only">Open main menu</span>
+      <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M1 1h15M1 7h15M1 13h15"/>
+      </svg>
+    </button>
+    <div class="hidden w-full md:block md:w-auto md:mb-4 md:ml-12" id="navbar-default">
+      <ul class="font-medium flex flex-col p-2 bg-transparent text-center border-t-2 border-t-white md:flex-row md:space-x-4 md:mt-0 md:p-0 md:border-t-0">
+        
+        
+        <li>
+          <a href="/"
+             class="
+                  block py-2 pl-3 pr-4
+                  
+                  text-gray-400
+                  
+                  hover:text-white
+               "
+          >Home</a>
+        </li>
+        
+        
+        <li>
+          <a href="/#people"
+             class="
+                  block py-2 pl-3 pr-4
+                  
+                  text-gray-400
+                  
+                  hover:text-white
+               "
+          >People</a>
+        </li>
+        
+        
+        <li>
+          <a href="/#details"
+             class="
+                  block py-2 pl-3 pr-4
+                  
+                  text-gray-400
+                  
+                  hover:text-white
+               "
+          >Details</a>
+        </li>
+        
+        
+        <li>
+          <a href="/#schedule"
+             class="
+                  block py-2 pl-3 pr-4
+                  
+                  text-gray-400
+                  
+                  hover:text-white
+               "
+          >Schedule</a>
+        </li>
+        
+        
+        <li>
+          <a href="/slides"
+             class="
+                  block py-2 pl-3 pr-4
+                  
+                  text-white
+                  
+                  hover:text-white
+               "
+          >Slides</a>
+        </li>
+        
+      </ul>
+    </div>
   </div>
 </nav>
-
-<style>
-  @media (max-width: 768px) {
-    #sidebar.active {
-      width: 100vw;
-      height: 100vh;
-      transform: translateX(0);
-    }
-  }
-</style>
-
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const sidebar = document.getElementById('sidebar');
-    const toggleButton = document.getElementById('toggleSidebar');
-    const overlay = document.createElement('div');
-    const navLinks = document.querySelectorAll('#sidebar a'); // Select all links in sidebar
-
-    overlay.classList.add('overlay');
-    document.body.appendChild(overlay);
-
-    // Toggle sidebar on button click
-    toggleButton.addEventListener('click', function () {
-        sidebar.classList.toggle('active');
-        overlay.classList.toggle('active');
-    });
-
-    // Close sidebar when clicking outside
-    overlay.addEventListener('click', function () {
-        sidebar.classList.remove('active');
-        overlay.classList.remove('active');
-    });
-
-    // Close sidebar when clicking a nav link (for anchor links)
-    navLinks.forEach(link => {
-        link.addEventListener('click', function () {
-            if (this.getAttribute('href').startsWith('/#')) {
-                // It's an anchor link, close the sidebar
-                sidebar.classList.remove('active');
-                overlay.classList.remove('active');
-            }
-        });
-    });
-});
-</script>
     
     <div class="flex-grow mt-1 px-4 md:px-10 pt-4 pb-4 md:max-w-screen-xl md:mx-auto md:w-full break-words">
       
