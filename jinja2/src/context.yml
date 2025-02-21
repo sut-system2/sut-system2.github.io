@@ -135,13 +135,7 @@ parts:
       instructor:
         display_name: Instructor
         size: 8
-      # events:
-      #   display_name: Events
-      #   size: 4
-      # deadlines:
-      #   display_name: Deadlines
-      #   size: 4
-      rows:
+    rows:
       - date: Sun, Bahman 21
         session: '1'
         topic: |
