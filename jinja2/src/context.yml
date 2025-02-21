@@ -59,11 +59,11 @@ parts:
     type: section
     text: >
       Please be in touch with us through the Telegram channel at [https://t.me/system2_spring2025](https://t.me/system2_spring2025). For 
-      necessary cases, contact the instructors or the head TA via email. Make sure to use a clear subject line and include your name and student ID. To facilitate identification by the instructional team, we strongly recommend using the [**Sharif webmail service**](https://webmail.sharif.edu/).
+      necessary cases, contact the instructors or the head TA via email. Make sure to use a clear subject line and include your name and student ID. To facilitate identification by the instructional team, we strongly recommend using the [Sharif webmail service](https://webmail.sharif.edu/).
        - Prof. Rohban (Instructor): [rohban@sharif.edu](mailto:rohban@sharif.edu)
        - Prof. Soleymani (Instructor): [soleymani@sharif.edu](mailto:soleymani@sharif.edu)
        - Mr. Samiei (Instructor): [mm.samiei@sharif.edu](mailto:mm.samiei@sharif.edu)
-       - Head TA: [arash.marioriyad98@sharif.edu](mailto:arash.marioriyad98@sharif.edu)
+       - Mr. Marioriyad (Head TA): [arash.marioriyad98@sharif.edu](mailto:arash.marioriyad98@sharif.edu)
       
   - title: Content
     id: details
@@ -83,10 +83,10 @@ parts:
           Please note that grades will be calculated out of 20.0, 
           with the respective grades for each section provided below:
 
-            - **Homework & Projcet**: 7 points.
-            - **Quiz**: 4 points.
-            - **Poster Session**: 3 points.
             - **Final Exam**: 6 points.
+            - **Quiz**: 4 points.
+            - **Homework & Projcet**: 7 points.
+            - **Poster Session**: 3 points.
       
       - title: Exam
         text: >
@@ -103,13 +103,20 @@ parts:
         
       - title: Homeworks
         text: >
+          There will be four homework assignments in this course, all to be submitted via the [**Quera Website**](https://quera.org/course/20771). You have an additional **two days** after the deadline for late submissions. Throughout the semester, you are allowed a total of **five days of delayed submissions** without penalty. Beyond this limit, a **1% deduction** will be applied to the assignment grade for every **hour** of further delay. Due to the tight schedule, no deadline extensions will be granted during the semester.
+
+            - **HW 1**: Sessions 1 to 10 - From March 18, 2025 to April 11, 2025.
+            - **HW 2**: Sessions 11 to 18 - From April 14, 2025 to May 9, 2025.
+            - **HW 3**: Sessions 19 to 24 - From May 12, 2025 to April 30, 2025.
+            - **HW 4**: Sessions 25 to 28 - From June 2, 2025 to June 27, 2025.
+
+      - title: Project
+        text: >
+          Details about the project will be announced soon!
           
       - title: Collaboration, Academic Honesty, and Plagiarism
         text: >
-
-  - title: Course Pages
-    type: section
-    text: >
+          Cheating or copying homework assignments will not be tolerated. On the first offense, you will be referred to the committee and will **fail the course**. Please review [**the Education Committee's guidelines on homework integrity**] (https://docs.ce.sharif.edu/rules/ethics).
 
   - title: Schedule
     type: table
@@ -123,7 +130,7 @@ parts:
         display_name: Date
         size: 5
       description:
-        display_name: Description
+        display_name: Topic
         size: 8
       materials:
         display_name: Course Materials
