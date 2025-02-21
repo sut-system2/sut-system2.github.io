@@ -179,19 +179,19 @@ parts:
       - date: Sun, Farvardin 17
         session: '11'
         topic: LLM & Test Time Computation
-        instructor: Dr. Soleymani & Mr. Samiei
+        instructor: Mr. Samiei
       - date: Tue, Farvardin 19
         session: '12'
         topic: LLM & Test Time Computation
-        instructor: Dr. Soleymani & Mr. Samiei
+        instructor: Mr. Samiei
       - date: Sun, Farvardin 24
         session: '13'
         topic: LLM & Test Time Computation
-        instructor: Dr. Soleymani & Mr. Samiei
+        instructor: Dr. Soleymani
       - date: Tue, Farvardin 26
         session: '14'
         topic: LLM & Test Time Computation
-        instructor: Dr. Soleymani & Mr. Samiei
+        instructor: Dr. Soleymani
       - date: Sun, Farvardin 31
         session: '15'
         topic: LLM & Test Time Adaptation
@@ -243,8 +243,8 @@ parts:
       - date: Sun, Khordad 11
         session: '27'
         topic: 
-        instructor: 
+        instructor:
       - date: Sun, Khordad 13
         session: '28'
         topic: 
-        instructor: 
+        instructor:
