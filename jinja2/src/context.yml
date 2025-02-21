@@ -138,10 +138,8 @@ parts:
     rows:
       - date: Sun, Bahman 21
         session: '1'
-        topic: |
-          Introduction & Motivation
-        instructor: |
-          Dr. Rohban & Mr. Samiei
+        topic: Introduction & Motivation
+        instructor: Dr. Rohban & Mr. Samiei
       - date: Tue, Bahman 23
         session: '2'
         topic: Introduction & Motivation
@@ -166,4 +164,31 @@ parts:
         session: '7'
         topic: NeuroSymbolic
         instructor: Dr. Rohban
-      
+      - date: Tue, Esfand 14
+        session: '8'
+        topic: Program Synthesis
+        instructor: Mr. Samiei
+      - date: Sun, Esfand 19
+        session: '9'
+        topic: Program Synthesis
+        instructor: Mr. Samiei
+      - date: Tue, Esfand 21
+        session: '10'
+        topic: Program Synthesis
+        instructor: Mr. Samiei
+      - date: Sun, Farvardin 17
+        session: '11'
+        topic: LLM & Test Time Computation
+        instructor: Dr. Soleymani & Mr. Samiei
+      - date: Tue, Farvardin 19
+        session: '12'
+        topic: LLM & Test Time Computation
+        instructor: Dr. Soleymani & Mr. Samiei
+      - date: Sun, Farvardin 24
+        session: '13'
+        topic: LLM & Test Time Computation
+        instructor: Dr. Soleymani & Mr. Samiei
+      - date: Sun, Farvardin 26
+        session: '14'
+        topic: LLM & Test Time Computation
+        instructor: Dr. Soleymani & Mr. Samiei
