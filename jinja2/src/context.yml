@@ -55,9 +55,13 @@ parts:
             pic: images/people/ta/Arash Mari Oriyad.jpg
             website: mailto:arash.marioriyad98@sharif.edu
 
-  # - title: Contacting Instruction Team
-  #   type: section
-  #   text: >
+  - title: Contacting Instruction Team
+    type: section
+    text: >
+      Please contact us through the Telegram channel at [https://t.me/system2_spring2025](https://t.me/system2_spring2025). For 
+      necessary cases, email the instructors and head TA. Ensure that you use a proper subject for your email and include your name and student ID. It is strongly
+      encouraged to use the [**@Sharif** webmail service](https://webmail.sharif.edu/) to ensure easy identification by the instructional team.)
+       - [**arash.marioriyad98@sharif.edu**](mailto:arash.marioriyad98@sharif.edu)
       
   - title: Content
     id: details
@@ -65,25 +69,23 @@ parts:
     subsections:
       - title: Prerequisites
         text: |
-          Essential:
-
-            - "Deep Learning"
-
-
-        Recommended:
-
-          - "Machine Learning"
-
-          - "Planning"
-
-          - "Neurosymbolic AI"
+          Essential: Deep Learning
+          Recommended: Planning and Neurosymbolic AI
           
       - title: Classes
         text: >
+          Classes are held on Sundays and Tuesdays from 15:00 to 16:30 (Tehran Time) in Room 201, Department of Computer Engineering, Sharif University of Technology.
           
       - title: Grading
-        text: >
+        text: |
+          Please note that grades will be calculated out of $20.0$, 
+          with the respective grades for each section provided below:
 
+            - **Homework & Projcet**: $7$ points.
+              - Four Series of HWs
+            - **Quiz**: $4$ points.
+            - **Poster Session: 3 points
+            - **Final Exam**: $6$ points
       
       - title: Exam
         text: >
