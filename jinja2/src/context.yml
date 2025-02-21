@@ -129,15 +129,22 @@ parts:
       date:
         display_name: Date
         size: 5
-      description:
+      topic:
         display_name: Topic
         size: 8
-      materials:
-        display_name: Course Materials
-        size: 16
-      events:
-        display_name: Events
-        size: 4
-      deadlines:
-        display_name: Deadlines
-        size: 4
+      instructor:
+        display_name: Instructor
+        size: 8
+      # events:
+      #   display_name: Events
+      #   size: 4
+      # deadlines:
+      #   display_name: Deadlines
+      #   size: 4
+      rows:
+      - date: Sun, Bahman 21
+        session: '1'
+        topic: |
+          Introduction & Motivation
+        instructor: |
+          Dr. Rohban & Mr. Samiei
