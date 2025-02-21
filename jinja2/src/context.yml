@@ -1,30 +1,25 @@
 parts:
   - title: SYSTEM 2 Course - Spring 2025 - Sharif University of Technology
     type: section
-  - title: Objective
+  - title: Description
     type: section
     text: >
-      <p>In 2011, the book <em>Thinking, Fast and Slow</em> introduced a fundamental concept in human cognition: we operate using two modes of thinking and problem-solving:</p>
+      In 2011, the book *Thinking, Fast and Slow* introduced a fundamental concept in human cognition: we operate using two modes of thinking and problem-solving:
 
-      <ul>
-        <li><strong>Fast Thinking (System 1):</strong> Intuitive, automatic, and subconscious—like recognizing a face or driving a familiar route.</li>
-        <li><strong>Slow Thinking (System 2):</strong> Deliberate, logical, and effortful—like solving a math problem or planning a strategy.</li>
-      </ul>
+      - **Fast Thinking (System 1):** Intuitive, automatic, and subconscious—like recognizing a face or driving a familiar route.
+      - **Slow Thinking (System 2):** Deliberate, logical, and effortful—like solving a math problem or planning a strategy.
 
-      <p>Modern AI, particularly deep learning, excels at <strong>System 1 tasks</strong> but struggles with reasoning, abstraction, and decision-making—key aspects of <strong>System 2 thinking</strong>.</p>
+      Modern AI, particularly deep learning, excels at **System 1 tasks** but struggles with reasoning, abstraction, and decision-making—key aspects of **System 2 thinking**.
 
-      <p>This course, <strong>System 2</strong>, explores AI techniques beyond deep learning to enable structured reasoning and problem-solving. Topics include:</p>
+      This course, **System 2**, explores AI techniques beyond deep learning to enable structured reasoning and problem-solving. Topics include:
 
-      <ul>
-        <li><strong>Neurosymbolic methods</strong></li>
-        <li><strong>Program synthesis</strong></li>
-        <li><strong>Test-time computation</strong></li>
-        <li><strong>RL-integrated LLMs</strong> (e.g., O3 and DeepSeek models)</li>
-        <li><strong>Agentic LLMs</strong></li>
-        <li><strong>Compositionality</strong></li>
-      </ul>
-
-      <p>These approaches are essential for advancing AI toward higher-level cognition.</p>
+      - Neurosymbolic methods
+      - Program synthesis
+      - Test-time computation/adaptation
+      - RL-integrated LLMs
+      - LLMs & Abstraction
+      - Agentic LLMs
+      - Compositionality
 
   - title: Instruction Team
     id: people
