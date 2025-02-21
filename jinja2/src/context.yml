@@ -4,7 +4,28 @@ parts:
   - title: Objective
     type: section
     text: >
-      In recent years, the significant advancements in artificial intelligence have been primarily driven by the paradigm of pre-training on large-scale datasets. However, despite these improvements, AI systems continue to lag behind human performance in complex cognitive tasks, particularly in reasoning-based or "System-2" problems that require multi-step solutions. Merely increasing the volume of training data is insufficient to bridge this gap, especially as the availability of novel data diminishes while the demand for reasoning capabilities grows exponentially. To address these challenges, various approaches have been developed to enhance AI performance in System-2 tasks. These include neuro-symbolic methods that integrate symbolic reasoning with neural networks, program synthesis, test-time computation techniques for large language models (LLMs), and the use of LLMs as agents capable of utilizing diverse tools. This course aims to explore the landscape of System-2 reasoning tasks and the innovative methodologies designed to improve AI’s ability to solve them.
+      <p>In 2011, the book <em>Thinking, Fast and Slow</em> introduced a fundamental concept in human cognition: we operate using two modes of thinking and problem-solving:</p>
+
+      <ul>
+        <li><strong>Fast Thinking (System 1):</strong> Intuitive, automatic, and subconscious—like recognizing a face or driving a familiar route.</li>
+        <li><strong>Slow Thinking (System 2):</strong> Deliberate, logical, and effortful—like solving a math problem or planning a strategy.</li>
+      </ul>
+
+      <p>Modern AI, particularly deep learning, excels at <strong>System 1 tasks</strong> but struggles with reasoning, abstraction, and decision-making—key aspects of <strong>System 2 thinking</strong>.</p>
+
+      <p>This course, <strong>System 2</strong>, explores AI techniques beyond deep learning to enable structured reasoning and problem-solving. Topics include:</p>
+
+      <ul>
+        <li><strong>Neurosymbolic methods</strong></li>
+        <li><strong>Program synthesis</strong></li>
+        <li><strong>Test-time computation</strong></li>
+        <li><strong>RL-integrated LLMs</strong> (e.g., O3 and DeepSeek models)</li>
+        <li><strong>Agentic LLMs</strong></li>
+        <li><strong>Compositionality</strong></li>
+      </ul>
+
+      <p>These approaches are essential for advancing AI toward higher-level cognition.</p>
+
   - title: Instruction Team
     id: people
     type: people

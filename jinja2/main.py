@@ -2,6 +2,7 @@ import argparse
 import importlib
 import os.path
 import shutil
+import os
 import subprocess
 
 import yaml
@@ -29,6 +30,10 @@ def main():
         templates_dir=args.templates_dir,
         globals_file=args.globals_file,
     ).parse()
+
+    source = "webified/"
+    destination = "../"
+    transfer_files(source, destination)
 
 
 class Parser:
@@ -105,6 +110,22 @@ class Parser:
         dest_path = os.path.join(self.output, dest_relative_path)
         shutil.copy(path, dest_path)
         print(f"Copied {path} -> {dest_path}")
+
+
+def transfer_files(source, destination):
+    for item in os.listdir(source):
+        src_path = os.path.join(source, item)
+        dest_path = os.path.join(destination, item)
+        if os.path.exists(dest_path):
+            if os.path.isdir(dest_path):
+                shutil.rmtree(dest_path)
+            else:
+                os.remove(dest_path)
+        if os.path.isdir(src_path):
+            shutil.copytree(src_path, dest_path)
+        else:
+            shutil.copy2(src_path, dest_path)
+    return
 
 
 if __name__ == "__main__":
