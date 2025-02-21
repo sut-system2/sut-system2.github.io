@@ -1,0 +1,26 @@
+parts:
+  - title: Slides
+    type: table
+    columns:
+      topic:
+        display_name: Topic
+        size: 1
+        cell_class: font-semibold
+      session:
+        display_name: Session
+        size: 1
+        cell_class: font-semibold
+      link:
+        display_name: Link
+        size: 1
+        cell_class: font-semibold
+    rows:
+      - topic: Introduction & Motivation
+        session: '1'
+        link: <a href="https://youtu.be/Fw0pgyiKMBA?si=ySw8bywi3vgp4P-O">Link</a>
+      - topic: Introduction & Motivation
+        session: '2'
+        link: <a href="https://youtu.be/nKuiMKQCHZc?si=uAp7EbMYG_vdGe6c">Link</a>
+      - topic: Introduction & Motivation
+        session: '3'
+        link: <a href="https://youtu.be/P8leqWQp8eg?si=c1yEVxoYm1E1bek9">Link</a>
