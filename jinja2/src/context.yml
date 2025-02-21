@@ -58,10 +58,12 @@ parts:
   - title: Contacting Instruction Team
     type: section
     text: >
-      Please contact us through the Telegram channel at [https://t.me/system2_spring2025](https://t.me/system2_spring2025). For 
-      necessary cases, email the instructors and head TA. Ensure that you use a proper subject for your email and include your name and student ID. It is strongly
-      encouraged to use the [**@Sharif** webmail service](https://webmail.sharif.edu/) to ensure easy identification by the instructional team.)
-       - [**arash.marioriyad98@sharif.edu**](mailto:arash.marioriyad98@sharif.edu)
+      Please be in touch with us through the Telegram channel at [https://t.me/system2_spring2025](https://t.me/system2_spring2025). For 
+      necessary cases, contact the instructors or the head TA via email. Make sure to use a clear subject line and include your name and student ID. To facilitate identification by the instructional team, we strongly recommend using the [**Sharif webmail service**](https://webmail.sharif.edu/).
+       - Prof. Rohban (Instructor): [rohban@sharif.edu](mailto:rohban@sharif.edu)
+       - Prof. Soleymani (Instructor): [soleymani@sharif.edu](mailto:soleymani@sharif.edu)
+       - Mr. Samiei (Instructor): [mm.samiei@sharif.edu](mailto:mm.samiei@sharif.edu)
+       - Head TA: [arash.marioriyad98@sharif.edu](mailto:arash.marioriyad98@sharif.edu)
       
   - title: Content
     id: details
@@ -74,23 +76,31 @@ parts:
           
       - title: Classes
         text: >
-          Classes are held on Sundays and Tuesdays from 15:00 to 16:30 (Tehran Time) in Room 201, Department of Computer Engineering, Sharif University of Technology.
+          Classes are held on Sundays and Tuesdays from 15:00 to 16:30 (UTC+3:30) in Room 201, Department of Computer Engineering, Sharif University of Technology.
           
       - title: Grading
         text: |
-          Please note that grades will be calculated out of $20.0$, 
+          Please note that grades will be calculated out of 20.0, 
           with the respective grades for each section provided below:
 
-            - **Homework & Projcet**: $7$ points.
-              - Four Series of HWs
-            - **Quiz**: $4$ points.
-            - **Poster Session: 3 points
-            - **Final Exam**: $6$ points
+            - **Homework & Projcet**: 7 points.
+            - **Quiz**: 4 points.
+            - **Poster Session**: 3 points.
+            - **Final Exam**: 6 points.
       
       - title: Exam
         text: >
+          There is no midterm exam. The final exam will be held on **June 12, 2025, at 14:30 (UTC+3:30).**
+      
+      - title: Quiz
+        text: >
+          There will be four quizzes, all scheduled for **12:00 PM (UTC+3:30).**
+
+            - **Quiz 1**: Sessions 1 to 10 - April 8, 2025.
+            - **Quiz 2**: Sessions 11 to 15 - April 29, 2025.
+            - **Quiz 3**: Sessions 16 to 19 - May 13, 2025.
+            - **Quiz 4**: Sessions 20 to 24 - June 3, 2025.
         
-          
       - title: Homeworks
         text: >
           
