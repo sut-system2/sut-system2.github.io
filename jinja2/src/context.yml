@@ -45,7 +45,7 @@ parts:
 
           - name: Mr. M. Samiei
             pic: images/people/Samiei.jpg
-            website: mailto:todo@gmail.com
+            website: mm.samiei@sharif.edu
 
       - role: head_assistant
         display_name: Head Assistants
@@ -53,18 +53,30 @@ parts:
 
           - name: Arash Marioriyad
             pic: images/people/ta/Arash Mari Oriyad.jpg
-            website: mailto:arashmarioriyad@gmail.com
+            website: mailto:arash.marioriyad98@sharif.edu
 
-  - title: Contacting Instruction Team
-    type: section
-    text: >
+  # - title: Contacting Instruction Team
+  #   type: section
+  #   text: >
       
   - title: Content
     id: details
     type: section
     subsections:
       - title: Prerequisites
-        text: >
+        text: |
+          Essential:
+
+            - "Deep Learning"
+
+
+        Recommended:
+
+          - "Machine Learning"
+
+          - "Planning"
+
+          - "Neurosymbolic AI"
           
       - title: Classes
         text: >
