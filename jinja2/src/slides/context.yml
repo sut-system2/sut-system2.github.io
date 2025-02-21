@@ -17,7 +17,7 @@ parts:
     rows:
       - topic: Introduction & Motivation
         session: 1 - 3
-        link: <a href="https://github.com/sut-system2/sut-system2.github.io/blob/main/slide_files/System2-Intorduction.pdf">Link</a>
+        link: <a href="https://github.com/sut-system2/sut-system2.github.io/raw/refs/heads/main/slide_files/System2-Introduction.pdf">Link</a>
       - topic: NeuroSymbolic VQA
         session: '4'
-        link: <a href="https://github.com/sut-system2/sut-system2.github.io/blob/main/slide_files/System2-NeuroSymbolic-VQA.pdf">Link</a>
+        link: <a href="https://github.com/sut-system2/sut-system2.github.io/raw/refs/heads/main/slide_files/System2-NeuroSymbolic-VQA.pdf">Link</a>

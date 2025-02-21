@@ -188,7 +188,63 @@ parts:
         session: '13'
         topic: LLM & Test Time Computation
         instructor: Dr. Soleymani & Mr. Samiei
-      - date: Sun, Farvardin 26
+      - date: Tue, Farvardin 26
         session: '14'
         topic: LLM & Test Time Computation
         instructor: Dr. Soleymani & Mr. Samiei
+      - date: Sun, Farvardin 31
+        session: '15'
+        topic: LLM & Test Time Adaptation
+        instructor: Dr. Rohban
+      - date: Tue, Ordibehesht 2
+        session: '16'
+        topic: LLM & RL
+        instructor: Dr. Soleymani
+      - date: Sun, Ordibehesht 7
+        session: '17'
+        topic: LLM & RL
+        instructor: Dr. Soleymani
+      - date: Tue, Ordibehesht 9
+        session: '18'
+        topic: LLM & RL
+        instructor: Dr. Soleymani
+      - date: Sun, Ordibehesht 14
+        session: '19'
+        topic: LLM & Abstraction
+        instructor: Dr. Soleymani
+      - date: Tue, Ordibehesht 16
+        session: '20'
+        topic: Reasoning with KGs
+        instructor: Dr. Rohban
+      - date: Sun, Ordibehesht 21
+        session: '21'
+        topic: Reasoning with KGs
+        instructor: Dr. Rohban
+      - date: Tue, Ordibehesht 23
+        session: '22'
+        topic: Reasoning with KGs
+        instructor: Dr. Rohban
+      - date: Sun, Ordibehesht 28
+        session: '23'
+        topic: LLM Agenst
+        instructor: Dr. Rohban
+      - date: Tue, Ordibehesht 30
+        session: '24'
+        topic: LLM Agenst
+        instructor: Dr. Rohban
+      - date: Sun, Khordad 4
+        session: '25'
+        topic: Compositionality
+        instructor: Dr. Soleymani
+      - date: Tue, Khordad 6
+        session: '26'
+        topic: Compositionality
+        instructor: Dr. Soleymani
+      - date: Sun, Khordad 11
+        session: '27'
+        topic: 
+        instructor: 
+      - date: Sun, Khordad 13
+        session: '28'
+        topic: 
+        instructor: 
