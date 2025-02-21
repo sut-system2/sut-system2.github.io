@@ -2,10 +2,19 @@ parts:
   - title: Slides
     type: table
     columns:
-      description:
-        display_name: Description
+      topic:
+        display_name: Topic
         size: 1
         cell_class: font-semibold
-      slide:
-        display_name: Slides
+      session:
+        display_name: Session
         size: 1
+        cell_class: font-semibold
+      link:
+        display_name: Link
+        size: 1
+        cell_class: font-semibold
+    rows:
+      - topic: Introduction & Motivation
+        session: 1-3
+        link: <a href="https://google.com">Link</a>

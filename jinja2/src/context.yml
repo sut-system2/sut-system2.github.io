@@ -144,38 +144,26 @@ parts:
           Dr. Rohban & Mr. Samiei
       - date: Tue, Bahman 23
         session: '2'
-        topic: |
-          Introduction & Motivation
-        instructor: |
-          Dr. Rohban & Mr. Samiei
+        topic: Introduction & Motivation
+        instructor: Dr. Rohban & Mr. Samiei
       - date: Sun, Bahman 28
         session: '3'
-        topic: |
-          Introduction & Motivation
-        instructor: |
-          Dr. Rohban & Mr. Samiei
+        topic: Introduction & Motivation
+        instructor: Dr. Rohban & Mr. Samiei
       - date: Tue, Bahman 30
         session: '4'
-        topic: |
-          NeuroSymbolic
-        instructor: |
-          Dr. Rohban
+        topic: NeuroSymbolic
+        instructor: Dr. Rohban
       - date: Sun, Esfand 5
         session: '5'
-        topic: |
-          NeuroSymbolic
-        instructor: |
-          Dr. Rohban
+        topic: NeuroSymbolic
+        instructor: Dr. Rohban
       - date: Tue, Esfand 7
         session: '6'
-        topic: |
-          NeuroSymbolic
-        instructor: |
-          Dr. Rohban
+        topic: NeuroSymbolic
+        instructor: Dr. Rohban
       - date: Sun, Esfand 12
         session: '7'
-        topic: |
-          NeuroSymbolic
-        instructor: |
-          Dr. Rohban
+        topic: NeuroSymbolic
+        instructor: Dr. Rohban
       
