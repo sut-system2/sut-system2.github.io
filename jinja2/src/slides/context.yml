@@ -24,3 +24,6 @@ parts:
       - topic: NeuroSymbolic - Olympiad Geometry
         session: '5'
         link: <a href="https://github.com/sut-system2/sut-system2.github.io/raw/refs/heads/main/slide_files/System2-NeuroSymbolic-Olympiad_Geometry.pdf">Link</a>
+      - topic: NeuroSymbolic - Concept Reasoning
+        session: '5'
+        link: <a href="https://github.com/sut-system2/sut-system2.github.io/raw/refs/heads/main/slide_files/System2-NeuroSymbolic-Concept_Reasoning.pdf">Link</a>
