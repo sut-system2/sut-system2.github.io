@@ -2,12 +2,12 @@ parts:
   - title: Slides
     type: table
     columns:
-      topic:
-        display_name: Topic
-        size: 1
-        cell_class: font-semibold
       session:
         display_name: Session
+        size: 1
+        cell_class: font-semibold
+      topic:
+        display_name: Topic
         size: 1
         cell_class: font-semibold
       link:
