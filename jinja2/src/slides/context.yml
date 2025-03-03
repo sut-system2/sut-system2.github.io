@@ -27,3 +27,6 @@ parts:
       - topic: NeuroSymbolic - Concept Reasoning
         session: '6'
         link: <a href="https://github.com/sut-system2/sut-system2.github.io/raw/refs/heads/main/slide_files/System2-NeuroSymbolic-Concept_Reasoning.pdf">Link</a>
+      - topic: NeuroSymbolic - Systematic Generalization
+        session: '7'
+        link: <a href="https://github.com/sut-system2/sut-system2.github.io/raw/refs/heads/main/slide_files/System2-NeuroSymbolic-Systematic_Generalization.pdf">Link</a>
