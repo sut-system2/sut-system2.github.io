@@ -33,3 +33,6 @@ parts:
       - topic: Symbolic Regression
         session: '8'
         link: <a href="https://github.com/sut-system2/sut-system2.github.io/raw/refs/heads/main/slide_files/System2-Symbolic_Regression.pdf">Link</a>
+      - topic: Program Synthesis
+        session: '9'
+        link: <a href="https://github.com/sut-system2/sut-system2.github.io/raw/refs/heads/main/slide_files/System2-Program_Synthesis.pdf">Link</a>
