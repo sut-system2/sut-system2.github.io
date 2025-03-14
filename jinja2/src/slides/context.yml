@@ -36,3 +36,6 @@ parts:
       - topic: Program Synthesis
         session: '9'
         link: <a href="https://github.com/sut-system2/sut-system2.github.io/raw/refs/heads/main/slide_files/System2-Program_Synthesis.pdf">Link</a>
+      - topic: Program Synthesis Emerges
+        session: '10'
+        link: <a href="https://github.com/sut-system2/sut-system2.github.io/raw/refs/heads/main/slide_files/System2-Program_Synthesis_Emerges.pdf">Link</a>
