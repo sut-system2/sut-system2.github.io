@@ -64,11 +64,19 @@ parts:
             website: mailto:mandyas7613@gmail.com
 
           - name: MohammadAli BanayeeanZadeh
-            pic: images/people/ta/MohammadAli BanayeeanZadeh.jpg
+            pic: images/people/ta/MohammadAli BanayeeanZadeh.png
             website: mailto:a.banayeean@gmail.com
 
           - name: MohammadHossein Sameti
             pic: images/people/ta/MohammadHossein Sameti.jpg
+
+          - name: Omid Ghahroodi
+            pic: images/people/ta/Omid Ghahroodi.jpg
+            -website: mailto:oghahroodi98@gmail.com
+          
+          - name: Amir Kasaei
+            pic: images/people/ta/Amir Kasaei.jpg
+            website: mailto:a.kasaei@me.com
 
   - title: Contacting Instruction Team
     type: section
