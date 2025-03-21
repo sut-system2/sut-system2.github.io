@@ -48,12 +48,27 @@ parts:
             website: mm.samiei@sharif.edu
 
       - role: head_assistant
-        display_name: Head Assistants
+        display_name: Head Teacher Assistant
         people:
 
           - name: Arash Marioriyad
             pic: images/people/ta/Arash Mari Oriyad.jpg
             website: mailto:arash.marioriyad98@sharif.edu
+
+      - role: head_assistant
+        display_name: Teacher Assistants
+        people:
+
+          - name: Mohammad Heidari
+            pic: images/people/ta/Mohammad Heidari.jpg
+            website: mailto:mandyas7613@gmail.com
+
+          - name: MohammadAli BanayeeanZadeh
+            pic: images/people/ta/MohammadAli BanayeeanZadeh.jpg
+            website: mailto:a.banayeean@gmail.com
+
+          - name: MohammadHossein Sameti
+            pic: images/people/ta/MohammadHossein Sameti.jpg
 
   - title: Contacting Instruction Team
     type: section
