@@ -59,12 +59,12 @@ parts:
         display_name: Teacher Assistants
         people:
 
-          - name: Mohammad Heidari
+          - name: Mohammad Hossein Heidari Beni
             pic: images/people/ta/Mohammad Heidari.jpg
             website: mailto:mandyas7613@gmail.com
 
           - name: MohammadAli BanayeeanZadeh
-            pic: images/people/ta/MohammadAli BanayeeanZadeh.png
+            pic: images/people/ta/MohammadAli BanayeeanZadeh.jpg
             website: mailto:a.banayeean@gmail.com
 
           - name: MohammadHossein Sameti
@@ -77,6 +77,21 @@ parts:
           - name: Amir Kasaei
             pic: images/people/ta/Amir Kasaei.jpg
             website: mailto:a.kasaei@me.com
+
+          - name: Amir Mohammad Izadi
+            pic: images/people/ta/Amir Mohammad Izadi.png
+
+          - name: Payam Taebi
+            pic: images/people/ta/Payam Taebi.jpg
+
+          - name: Mehrdad Salehi
+            pic: images/people/ta/Mehrdad Salehi.jpg
+
+          - name: Ali Abdollahi
+            pic: images/people/ta/Ali Abdollahi.jpg
+
+          - name: Parham Rezaei
+            pic: images/people/ta/Parham Rezaei.png
 
   - title: Contacting Instruction Team
     type: section
