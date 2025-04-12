@@ -39,3 +39,9 @@ parts:
       - topic: Program Synthesis Emerges
         session: '10'
         link: <a href="https://github.com/sut-system2/sut-system2.github.io/raw/refs/heads/main/slide_files/System2-Program_Synthesis_Emerges.pdf">Link</a>
+      - topic: Chain of Thought
+        session: '11'
+        link: <a href="https://github.com/sut-system2/sut-system2.github.io/raw/refs/heads/main/slide_files/System2-Chain_of_Thought.pdf">Link</a>
+      - topic: Tree of Thought
+        session: '12'
+        link: <a href="https://github.com/sut-system2/sut-system2.github.io/raw/refs/heads/main/slide_files/System2-Tree_of_Thought.pdf">Link</a>
