@@ -27,31 +27,40 @@ parts:
       - topic: NeuroSymbolic - VQA (Screen Record)
         session: '4'
         link: <a href="https://www.dropbox.com/scl/fo/qingus0j62ui3biueq81x/ACFLSHk0lU9wCDPaQ87S9jE?e=1&preview=session+4.mp4&rlkey=vxndcn6ofow5hlam9fkal19c7&st=7emfldnq&dl=0">Link</a>
-      - topic: NeuroSymbolic - Olympiad Geometry (Screed Record)
+      - topic: NeuroSymbolic - Olympiad Geometry (Screen Record)
         session: '5'
         link: <a href="https://www.dropbox.com/scl/fo/qingus0j62ui3biueq81x/ACFLSHk0lU9wCDPaQ87S9jE?e=1&preview=session+5.mp4&rlkey=vxndcn6ofow5hlam9fkal19c7&st=5ncuuj52&dl=0">Link</a>
-      - topic: NeuroSymbolic - Concept Reasoning (Screed Record)
+      - topic: NeuroSymbolic - Concept Reasoning (Screen Record)
         session: '6'
         link: <a href="https://www.dropbox.com/scl/fo/qingus0j62ui3biueq81x/ACFLSHk0lU9wCDPaQ87S9jE?e=1&preview=session+6.mp4&rlkey=vxndcn6ofow5hlam9fkal19c7&st=l9l09vrp&dl=0">Link</a>
-      - topic: NeuroSymbolic - Systematic Generalization (Screed Record)
+      - topic: NeuroSymbolic - Systematic Generalization (Screen Record)
         session: '7'
         link: <a href="https://www.dropbox.com/scl/fo/qingus0j62ui3biueq81x/ACFLSHk0lU9wCDPaQ87S9jE?e=1&preview=session+7.mp4&rlkey=vxndcn6ofow5hlam9fkal19c7&st=x2fgp7di&dl=0">Link</a>
-      - topic: Symbolic Regression (Screed Record)
+      - topic: Symbolic Regression (Screen Record)
         session: '8'
         link: <a href="https://www.dropbox.com/s/8r0xwqg6eh5k0hu/session%208.mp4?st=vbrteyyu&dl=0">Link</a>
-      - topic: Program Synthesis (Screed Record)
+      - topic: Program Synthesis (Screen Record)
         session: '9'
         link: <a href="https://www.dropbox.com/s/p51yx6u7kmz4qzu/session%209.mp4?e=1&st=99t3lqku&dl=0">Link</a>
-      - topic: Program Synthesis Emerges (Screed Record)
+      - topic: Program Synthesis Emerges (Screen Record)
         session: '10'
         link: <a href="https://www.dropbox.com/scl/fi/edq8bt7x94cas3mjgxrld/session-10.mp4?rlkey=ds2s1hvoeeqmnxacngz7b66lq&e=1&st=r7nha5zl&dl=0">Link</a>
-      - topic: Recitation 1 (Screed Record)
+      - topic: Recitation 1 (Screen Record)
         session: '-'
         link: <a href="https://www.dropbox.com/scl/fi/drehgzfbtpdh8fmykmkv3/session-recitation-1.mp4?rlkey=dbnfyz5io2lx5r2fuk63hnz67&e=1&st=bfahitej&dl=0">Link</a>
-      - topic: Chain of Thought (Screed Record)
+      - topic: Chain of Thought (Screen Record)
         session: '11'
         link: <a href="https://www.dropbox.com/scl/fi/mxohohfk4ovgfxsm2v8n1/session-11.mp4?rlkey=8ak7des2kqre8nrfuotf5ty1w&st=i0fwvs4t&dl=0">Link</a>
-      - topic: Tree of Thought (Screed Record)
+      - topic: Tree of Thought (Screen Record)
         session: '12'
         link: <a href="https://www.dropbox.com/scl/fi/7q5ps2p6k65lnk4o9bvyi/session-12.mp4?rlkey=nghefe00bnfxlhjlbpgdmmxxf&st=cil1prad&dl=0">Link</a>
+      - topic: Test-time Scaling - Part 1
+        session: '13'
+        link: <a href="">Link</a>
+      - topic: Test-time Scaling - Part 2
+        session: '14'
+        link: <a href="">Link</a>
+      - topic: Test-time Training
+        session: '15'
+        link: <a href="https://www.dropbox.com/scl/fi/wr27daofsgki8dzn3ptrv/session-15.mp4?rlkey=iqz8cydhl3ij2sfcdqndyzft1&st=wh99dffb&dl=0">Link</a>
       

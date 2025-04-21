@@ -45,3 +45,12 @@ parts:
       - topic: Tree of Thought
         session: '12'
         link: <a href="https://github.com/sut-system2/sut-system2.github.io/raw/refs/heads/main/slide_files/System2-Tree_of_Thought.pdf">Link</a>
+      - topic: Test-time Scaling - Part 1
+        session: '13'
+        link: <a href="https://github.com/sut-system2/sut-system2.github.io/raw/refs/heads/main/slide_files/System2-Test_Time_Scaling_1.pdf">Link</a>
+      - topic: Test-time Scaling - Part 2
+        session: '14'
+        link: <a href="https://github.com/sut-system2/sut-system2.github.io/raw/refs/heads/main/slide_files/System2-Test_Time_Scaling_2.pdf">Link</a>
+      - topic: Test-time Training
+        session: '15'
+        link: <a href="https://github.com/sut-system2/sut-system2.github.io/raw/refs/heads/main/slide_files/System2-Test_Time_Training.pdf">Link</a>
