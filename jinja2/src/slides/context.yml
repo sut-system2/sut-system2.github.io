@@ -54,3 +54,12 @@ parts:
       - topic: Test-time Training
         session: '15'
         link: <a href="https://github.com/sut-system2/sut-system2.github.io/raw/refs/heads/main/slide_files/System2-Test_Time_Training.pdf">Link</a>
+      - topic: LLM & RL - Part 1
+        session: '16'
+        link: <a href="https://github.com/sut-system2/sut-system2.github.io/raw/refs/heads/main/slide_files/Sysyem2-LLM_and_RL_1.pdf">Link</a>
+      - topic: LLM & RL - Part 2
+        session: '17'
+        link: <a href="https://github.com/sut-system2/sut-system2.github.io/raw/refs/heads/main/slide_files/Sysyem2-LLM_and_RL_2.pdf">Link</a>
+      - topic: LLM & RL - Part 3
+        session: '18'
+        link: <a href="https://github.com/sut-system2/sut-system2.github.io/raw/refs/heads/main/slide_files/Sysyem2-LLM_and_RL_3.pdf">Link</a>
