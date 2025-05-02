@@ -63,4 +63,13 @@ parts:
       - topic: Test-time Training (Screen Record)
         session: '15'
         link: <a href="https://www.dropbox.com/scl/fi/wr27daofsgki8dzn3ptrv/session-15.mp4?rlkey=iqz8cydhl3ij2sfcdqndyzft1&st=wh99dffb&dl=0">Link</a>
+      - topic: LLM & RL - Part 1 (Screen Record)
+        session: '16'
+        link: <a href="">-</a>
+      - topic: LLM & RL - Part 2 (Screen Record)
+        session: '17'
+        link: <a href="https://drive.google.com/file/d/10ayBXsnzTi_VUa6E-4d7F0WLeNrDz22G/view?usp=sharing">Link</a>
+      - topic: LLM & RL - Part 3 (Screen Record)
+        session: '18'
+        link: <a href="https://drive.google.com/file/d/1F7NUvOpVHa3LigmUle3J-04P3f1UlKmn/view?usp=sharing">Link</a>
       
