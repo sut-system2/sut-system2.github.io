@@ -63,3 +63,6 @@ parts:
       - topic: LLM & RL - Part 3
         session: '18'
         link: <a href="https://github.com/sut-system2/sut-system2.github.io/raw/refs/heads/main/slide_files/Sysyem2-LLM_and_RL_3.pdf">Link</a>
+      - topic: Reasoning & Abstraction
+        session: '19'
+        link: <a href="https://github.com/sut-system2/sut-system2.github.io/raw/refs/heads/main/slide_files/Sysyem2-Reasoning_and_Abstraction_3.pdf">Link</a>
