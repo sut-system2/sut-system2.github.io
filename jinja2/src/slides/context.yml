@@ -66,6 +66,12 @@ parts:
       - topic: Reasoning & Abstraction
         session: '19'
         link: <a href="https://github.com/sut-system2/sut-system2.github.io/raw/refs/heads/main/slide_files/Sysyem2-Reasoning_and_Abstraction.pdf">Link</a>
-      - topic: Knowledge Graph Reasoning
-        session: '20 & 21 & 22'
-        link: <a href="https://github.com/sut-system2/sut-system2.github.io/raw/refs/heads/main/slide_files/System2-Knowledge_Graph_Reasoning.pdf">Link</a>
+      - topic: Knowledge Graph Reasoning - Part 1 
+        session: '20'
+        link: <a href="https://github.com/sut-system2/sut-system2.github.io/raw/refs/heads/main/slide_files/System2-Knowledge_Graph_Reasoning_1_and_2.pdf">Link</a>
+      - topic: Knowledge Graph Reasoning - Part 2 
+        session: '21'
+        link: <a href="https://github.com/sut-system2/sut-system2.github.io/raw/refs/heads/main/slide_files/System2-Knowledge_Graph_Reasoning_1_and_2.pdf">Link</a>
+      - topic: Knowledge Graph Reasoning - Part 3
+        session: '22'
+        link: <a href="https://github.com/sut-system2/sut-system2.github.io/raw/refs/heads/main/slide_files/System2-Knowledge_Graph_Reasoning_3.pdf">Link</a>
