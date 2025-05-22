@@ -75,3 +75,6 @@ parts:
       - topic: Knowledge Graph Reasoning - Part 3
         session: '22'
         link: <a href="https://github.com/sut-system2/sut-system2.github.io/raw/refs/heads/main/slide_files/System2-Knowledge_Graph_Reasoning_3.pdf">Link</a>
+      - topic: Language Agents
+        session: '23 & 24'
+        link: <a href="https://github.com/sut-system2/sut-system2.github.io/raw/refs/heads/main/slide_files/System2-Language_Agents.pdf">Link</a>
