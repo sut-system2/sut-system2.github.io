@@ -56,16 +56,16 @@ parts:
         link: <a href="https://github.com/sut-system2/sut-system2.github.io/raw/refs/heads/main/slide_files/System2-Test_Time_Training.pdf">Link</a>
       - topic: LLM & RL - Part 1
         session: '16'
-        link: <a href="https://github.com/sut-system2/sut-system2.github.io/raw/refs/heads/main/slide_files/Sysyem2-LLM_and_RL_1.pdf">Link</a>
+        link: <a href="https://github.com/sut-system2/sut-system2.github.io/raw/refs/heads/main/slide_files/System2-LLM_and_RL_1.pdf">Link</a>
       - topic: LLM & RL - Part 2
         session: '17'
-        link: <a href="https://github.com/sut-system2/sut-system2.github.io/raw/refs/heads/main/slide_files/Sysyem2-LLM_and_RL_2.pdf">Link</a>
+        link: <a href="https://github.com/sut-system2/sut-system2.github.io/raw/refs/heads/main/slide_files/System2-LLM_and_RL_2.pdf">Link</a>
       - topic: LLM & RL - Part 3
         session: '18'
-        link: <a href="https://github.com/sut-system2/sut-system2.github.io/raw/refs/heads/main/slide_files/Sysyem2-LLM_and_RL_3.pdf">Link</a>
+        link: <a href="https://github.com/sut-system2/sut-system2.github.io/raw/refs/heads/main/slide_files/System2-LLM_and_RL_3.pdf">Link</a>
       - topic: Reasoning & Abstraction
         session: '19'
-        link: <a href="https://github.com/sut-system2/sut-system2.github.io/raw/refs/heads/main/slide_files/Sysyem2-Reasoning_and_Abstraction.pdf">Link</a>
+        link: <a href="https://github.com/sut-system2/sut-system2.github.io/raw/refs/heads/main/slide_files/System2-Reasoning_and_Abstraction.pdf">Link</a>
       - topic: Knowledge Graph Reasoning - Part 1 
         session: '20'
         link: <a href="https://github.com/sut-system2/sut-system2.github.io/raw/refs/heads/main/slide_files/System2-Knowledge_Graph_Reasoning_1_and_2.pdf">Link</a>
@@ -78,3 +78,6 @@ parts:
       - topic: Language Agents
         session: '23 & 24'
         link: <a href="https://github.com/sut-system2/sut-system2.github.io/raw/refs/heads/main/slide_files/System2-Language_Agents.pdf">Link</a>
+      - topic: Compositionality
+        session: '25 & 26'
+        link: <a href="https://github.com/sut-system2/sut-system2.github.io/raw/refs/heads/main/slide_files/System2-Compositionality.pdf">Link</a>
