@@ -81,3 +81,6 @@ parts:
       - topic: Compositionality
         session: '25 & 26'
         link: <a href="https://github.com/sut-system2/sut-system2.github.io/raw/refs/heads/main/slide_files/System2-Compositionality.pdf">Link</a>
+      - topic: Compositionality
+        session: '27'
+        link: <a href="https://github.com/sut-system2/sut-system2.github.io/raw/refs/heads/main/slide_files/System2-Large_Concept_Models.pdf">Link</a>
