@@ -84,3 +84,6 @@ parts:
       - topic: Large Concept Models
         session: '27'
         link: <a href="https://github.com/sut-system2/sut-system2.github.io/raw/refs/heads/main/slide_files/System2-Large_Concept_Models.pdf">Link</a>
+      - topic: Best-of-N Method (Paper Review)
+        session: '28'
+        link: <a href="https://arxiv.org/abs/2401.01879">Link</a>
