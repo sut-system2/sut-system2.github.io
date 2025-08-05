@@ -14,3 +14,5 @@ nav:
       text: Videos
     - link: /homeworks
       text: HomeWorks
+    - link: /poster_sessions
+      text: Poster Session

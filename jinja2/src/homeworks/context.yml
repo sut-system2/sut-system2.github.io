@@ -1,8 +1,8 @@
 parts:
-  - title: Slides
+  - title: Homeworks
     type: table
     columns:
-      number:
+      topic:
         display_name: Number
         size: 1
         cell_class: font-semibold
@@ -10,3 +10,10 @@ parts:
         display_name: Link
         size: 1
         cell_class: font-semibold
+    rows:
+      - topic: NeuroSymbolic & Symbolic Regression
+        link: <a href="https://github.com/sut-system2/sut-system2.github.io/raw/refs/heads/main/hw_files/System2_HW1.zip">Link</a>
+      - topic: Inference-time Scaling & RL Post-training
+        link: <a href="https://github.com/sut-system2/sut-system2.github.io/raw/refs/heads/main/hw_files/System2_HW2.zip">Link</a>
+      - topic: LLM Agent & Graph RAG
+        link: <a href="https://github.com/sut-system2/sut-system2.github.io/raw/refs/heads/main/hw_files/System2_HW3.zip">Link</a>
