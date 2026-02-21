@@ -1,109 +1,12 @@
 parts:
   - title: Videos
-    type: table
-    columns:
-      session:
-        display_name: Session
-        size: 1
-        cell_class: font-semibold
-      topic:
-        display_name: Topic
-        size: 1
-        cell_class: font-semibold
-      link:
-        display_name: Link
-        size: 1
-        cell_class: font-semibold
-    rows:
-      - topic: Introduction & Motivation
-        session: '1'
-        link: <a href="https://youtu.be/Fw0pgyiKMBA?si=ySw8bywi3vgp4P-O">Link</a>
-      - topic: Introduction & Motivation
-        session: '2'
-        link: <a href="https://youtu.be/nKuiMKQCHZc?si=uAp7EbMYG_vdGe6c">Link</a>
-      - topic: Introduction & Motivation
-        session: '3'
-        link: <a href="https://youtu.be/P8leqWQp8eg?si=c1yEVxoYm1E1bek9">Link</a>
-      - topic: NeuroSymbolic - VQA (Screen Record)
-        session: '4'
-        link: <a href="https://www.dropbox.com/scl/fo/qingus0j62ui3biueq81x/ACFLSHk0lU9wCDPaQ87S9jE?e=1&preview=session+4.mp4&rlkey=vxndcn6ofow5hlam9fkal19c7&st=7emfldnq&dl=0">Link</a>
-      - topic: NeuroSymbolic - Olympiad Geometry (Screen Record)
-        session: '5'
-        link: <a href="https://www.dropbox.com/scl/fo/qingus0j62ui3biueq81x/ACFLSHk0lU9wCDPaQ87S9jE?e=1&preview=session+5.mp4&rlkey=vxndcn6ofow5hlam9fkal19c7&st=5ncuuj52&dl=0">Link</a>
-      - topic: NeuroSymbolic - Concept Reasoning (Screen Record)
-        session: '6'
-        link: <a href="https://www.dropbox.com/scl/fo/qingus0j62ui3biueq81x/ACFLSHk0lU9wCDPaQ87S9jE?e=1&preview=session+6.mp4&rlkey=vxndcn6ofow5hlam9fkal19c7&st=l9l09vrp&dl=0">Link</a>
-      - topic: NeuroSymbolic - Systematic Generalization (Screen Record)
-        session: '7'
-        link: <a href="https://www.dropbox.com/scl/fo/qingus0j62ui3biueq81x/ACFLSHk0lU9wCDPaQ87S9jE?e=1&preview=session+7.mp4&rlkey=vxndcn6ofow5hlam9fkal19c7&st=x2fgp7di&dl=0">Link</a>
-      - topic: Symbolic Regression (Screen Record)
-        session: '8'
-        link: <a href="https://www.dropbox.com/s/8r0xwqg6eh5k0hu/session%208.mp4?st=vbrteyyu&dl=0">Link</a>
-      - topic: Program Synthesis (Screen Record)
-        session: '9'
-        link: <a href="https://www.dropbox.com/s/p51yx6u7kmz4qzu/session%209.mp4?e=1&st=99t3lqku&dl=0">Link</a>
-      - topic: Program Synthesis Emerges (Screen Record)
-        session: '10'
-        link: <a href="https://www.dropbox.com/scl/fi/edq8bt7x94cas3mjgxrld/session-10.mp4?rlkey=ds2s1hvoeeqmnxacngz7b66lq&e=1&st=r7nha5zl&dl=0">Link</a>
-      - topic: Recitation 1 (Screen Record)
-        session: '-'
-        link: <a href="https://www.dropbox.com/scl/fi/drehgzfbtpdh8fmykmkv3/session-recitation-1.mp4?rlkey=dbnfyz5io2lx5r2fuk63hnz67&e=1&st=bfahitej&dl=0">Link</a>
-      - topic: Chain of Thought (Screen Record)
-        session: '11'
-        link: <a href="https://www.dropbox.com/scl/fi/mxohohfk4ovgfxsm2v8n1/session-11.mp4?rlkey=8ak7des2kqre8nrfuotf5ty1w&st=i0fwvs4t&dl=0">Link</a>
-      - topic: Tree of Thought (Screen Record)
-        session: '12'
-        link: <a href="https://www.dropbox.com/scl/fi/7q5ps2p6k65lnk4o9bvyi/session-12.mp4?rlkey=nghefe00bnfxlhjlbpgdmmxxf&st=cil1prad&dl=0">Link</a>
-      - topic: Test-time Scaling - Part 1 (Screen Record)
-        session: '13'
-        link: <a href="https://drive.google.com/file/d/1qaTuYrIa0JTF57dBO3IUGCPHLwanXtZo/view?usp=sharing">Link</a>
-      - topic: Test-time Scaling - Part 2 (Screen Record)
-        session: '14'
-        link: <a href="https://drive.google.com/file/d/1uIUIIuW_MNBhtcCUX70K4w6KyiRin6L-/view?usp=sharing">Link</a>
-      - topic: Test-time Training (Screen Record)
-        session: '15'
-        link: <a href="https://www.dropbox.com/scl/fi/wr27daofsgki8dzn3ptrv/session-15.mp4?rlkey=iqz8cydhl3ij2sfcdqndyzft1&st=wh99dffb&dl=0">Link</a>
-      - topic: LLM & RL - Part 1 (Screen Record)
-        session: '16'
-        link: <a href="">-</a>
-      - topic: Recitation 2 (Screen Record)
-        session: '-'
-        link: <a href="https://www.dropbox.com/scl/fi/bu806laq2ljqfom48une9/session-recitation-2-RL.mp4?rlkey=z88y4jpp7w47apxh8st10g8pj&st=k8yiu4ej&dl=0">Link</a>
-      - topic: LLM & RL - Part 2 (Screen Record)
-        session: '17'
-        link: <a href="https://drive.google.com/file/d/10ayBXsnzTi_VUa6E-4d7F0WLeNrDz22G/view?usp=sharing">Link</a>
-      - topic: LLM & RL - Part 3 (Screen Record)
-        session: '18'
-        link: <a href="https://drive.google.com/file/d/1F7NUvOpVHa3LigmUle3J-04P3f1UlKmn/view?usp=sharing">Link</a>
-      - topic: Reasoning & Abstraction (Screen Record)
-        session: '19'
-        link: <a href="https://drive.google.com/file/d/1JsUjOePAoBE1-A68-vVh1kG8GhxkfdS6/view?usp=sharing">Link</a>
-      - topic: Knowledge Graph Reasoning - Part 1 (Screen Record)
-        session: '20'
-        link: <a href="https://www.dropbox.com/scl/fi/vbxrpcknsl2en10ckaj88/session-20.mp4?rlkey=sxvnn7j7da5cslmp7u6j3yktd&st=twiozmqg&dl=0">Link</a>
-      - topic: Knowledge Graph Reasoning - Part 2 (Screen Record)
-        session: '21'
-        link: <a href="https://www.dropbox.com/scl/fi/dhu2bdlppvr3g9te0bd7q/session-21.mp4?rlkey=k4oz1stbx8ez9df8efylt9e86&st=08tk6awj&dl=0">Link</a>
-      - topic: Knowledge Graph Reasoning - Part 3 (Screen Record)
-        session: '22'
-        link: <a href="https://www.dropbox.com/scl/fi/t1xtmbfd308cw9wdwtfj7/session-22.mp4?rlkey=exhgrdcta9l53k4l7umhbj73u&st=jngd692s&dl=0">Link</a>
-      - topic: Language Agents - Part 1 (Screen Record)
-        session: '23'
-        link: <a href="https://www.dropbox.com/scl/fi/lzj1jo0mqoawhvb0rx1py/session-23.mp4?rlkey=nfuukdonkv340qzcmf5lq5s1r&st=zva9byoj&dl=0">Link</a>
-      - topic: Language Agents - Part 2 (Screen Record)
-        session: '24'
-        link: <a href="https://www.dropbox.com/scl/fi/u46a5m9lc6z28hdnqt4f4/session-24.mp4?rlkey=ocbqnc1wve1d8l47v83lv983g&st=orn65qib&dl=0">Link</a>
-      - topic: Compositionality - Part 1 (Screen Record)
-        session: '25'
-        link: <a href="https://drive.google.com/file/d/14roQ2LERRp8l4D4f3fe1pSFU2ukUbuDk/view?usp=sharing">Link</a>
-      - topic: Compositionality - Part 2 (Screen Record)
-        session: '26'
-        link: <a href="https://drive.google.com/file/d/1Fz6q7wW0wy2NYpfLmfhtQG0639jK1DEc/view?usp=sharing">Link</a>
-      - topic: Large Concept Models (Screen Record)
-        session: '27'
-        link: <a href="https://www.dropbox.com/scl/fi/k2oz1h8fusg0gma2jwga4/session-27.mp4?rlkey=cgrvkyjs1wfq40v0sob2prmy2&e=1&st=086unx7m&dl=0">Link</a>
-      - topic: Best-of-N Method (Screen Record)
-        session: '28'
-        link: <a href="https://www.dropbox.com/scl/fi/pun9cys1swis718vsd4ld/session-28.mp4?rlkey=5urw8eflc9845bybcnh643iqv&st=wjya5oqd&dl=0">Link</a>
-      
-      
+    type: section
+    text: >
+      <br class="md:hidden">
+      <a href="https://www.youtube.com/watch?v=CmEnA_Yc3ak&list=PLFr7f4WLNwracR8k8jgYONAp-2pmKrdc3" 
+         target="_blank" 
+         rel="noopener noreferrer" 
+         class="text-blue-600 hover:text-blue-800 font-semibold hover:underline break-all transition duration-200">
+         The playlist of Spring 2025 course.
+      </a>
+      </br>The videos of Spring 2026 course will be uploaded during the semester.

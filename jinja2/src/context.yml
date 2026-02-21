@@ -1,5 +1,5 @@
 parts:
-  - title: SYSTEM 2 Course - Spring 2025 - Sharif University of Technology
+  - title: SYSTEM 2 Course - Spring 2026 - Sharif University of Technology
     type: section
   - title: Description
     type: section
@@ -18,15 +18,27 @@ parts:
       
       - Program synthesis
       
-      - Test-time computation/adaptation
+      - LLMs & Test-time Computation
       
-      - RL-integrated LLMs
+      - Introduction to RL
       
-      - LLMs & Abstraction
+      - LLMs & RL
       
-      - Agentic LLMs
+      - Test-time Training/Continual Learning
       
-      - Compositionality
+      - Uncertainty Estimation in LLMs
+      
+      - LLMs and abstraction
+      
+      - Diffusion Language Models
+      
+      - LLM Agents
+      
+      - Open-endedness and Creativity
+      
+      - CoT Faithfulness
+      
+      - Complexity OOD
 
   - title: Instruction Team
     id: people
@@ -51,57 +63,83 @@ parts:
         display_name: Head Teacher Assistant
         people:
 
+          - name: Moein Salimi
+            pic: images/people/ta/Moein Salimi.jpg
+            website: mailto:s.salimi.moein@gmail.com
+
+      - role: assistants
+        display_name: Teacher Assistants
+        people:
+
+          - name: Hanieh Sartipi
+            pic: images/people/ta/Hanieh Sartipi.jpg
+            website: mailto:haniehsartipi@gmail.com
+
+          - name: Pouya Behzadifar
+            pic: images/people/ta/Pouya Behzadifar.jpg
+            website: mailto:pouyabeh80@gmail.com
+
+          - name: Ali Najar
+            pic: images/people/ta/Ali Najar.jpg
+            website: mailto:anajar13750@gmail.com
+
           - name: Arash Marioriyad
             pic: images/people/ta/Arash Mari Oriyad.jpg
             website: mailto:arash.marioriyad98@sharif.edu
 
-      - role: head_assistant
-        display_name: Teacher Assistants
-        people:
+          - name: Danial Parnian
+            pic: images/people/ta/Danial Parnian.jpg
+            website: mailto:danielparnian@gmail.com
 
-          - name: Mohammad Hossein Heidari Beni
-            pic: images/people/ta/Mohammad Heidari.jpg
-            website: mailto:mandyas7613@gmail.com
+          - name: Arshia Izadyari
+            pic: images/people/ta/Arshia Izadyari.jpg
+            website: mailto:stevevisht@gmail.com
 
-          - name: MohammadAli BanayeeanZadeh
-            pic: images/people/ta/MohammadAli BanayeeanZadeh.jpg
-            website: mailto:a.banayeean@gmail.com
+          - name: Mahshid Dehghani
+            pic: images/people/ta/Mahshid Dehghani.jpg
+            website: mailto:mahshid.dehghani5@gmail.com
 
-          - name: MohammadHossein Sameti
-            pic: images/people/ta/MohammadHossein Sameti.jpg
+          - name: Shaygan Adim
+            pic: images/people/ta/Shaygan Adim.jpg
+            website: mailto:sh83adim@gmail.com
 
-          - name: Omid Ghahroodi
-            pic: images/people/ta/Omid Ghahroodi.jpg
-            -website: mailto:oghahroodi98@gmail.com
-          
-          - name: Amir Kasaei
-            pic: images/people/ta/Amir Kasaei.jpg
-            website: mailto:a.kasaei@me.com
+          - name: Nima Alighardashi
+            pic: images/people/ta/Nima Alighardashi.jpg
+            website: mailto:nimaalighardashi@gmail.com
 
-          - name: Amir Mohammad Izadi
-            pic: images/people/ta/Amir Mohammad Izadi.png
+          - name: Sahand Akramipour
+            pic: images/people/ta/Sahand Akramipour.jpg
+            website: mailto:sahandap@gmail.com
 
-          - name: Payam Taebi
-            pic: images/people/ta/Payam Taebi.jpg
+          - name: Mohammad Mahdavi
+            pic: images/people/ta/Mohammad Mahdavi.jpg
+            website: mailto:mhm.ebrh.mahdavi@gmail.com
 
-          - name: Mehrdad Salehi
-            pic: images/people/ta/Mehrdad Salehi.jpg
+          - name: Amin Kasiri
+            pic: images/people/ta/Amin Kasiri.jpg
+            website: mailto:kasiri.amin@gmail.com
 
-          - name: Ali Abdollahi
-            pic: images/people/ta/Ali Abdollahi.jpg
+          - name: Fatemeh Shahhosseini
+            pic: images/people/ta/Fatemeh Shahhosseini.jpg
+            website: mailto:f.shahhosseini.20@gmail.com
 
-          - name: Parham Rezaei
-            pic: images/people/ta/Parham Rezaei.png
+          - name: Radin Cheraghi
+            pic: images/people/ta/Radin Cheraghi.jpg
+            website: mailto:radinch1783@gmail.com
+
+          - name: Ali Aghayari
+            pic: images/people/ta/Ali Aghayari.jpg
+            website: mailto:ali.aghayari.811@gmail.com
 
   - title: Contacting Instruction Team
     type: section
     text: >
-      Please be in touch with us through the Telegram channel at [https://t.me/system2_spring2025](https://t.me/system2_spring2025). For 
+      Please be in touch with us through the Telegram channel at [https://t.me/system2_spring2026](https://t.me/system2_spring2026). For 
       necessary cases, contact the instructors or the head TA via email. Make sure to use a clear subject line and include your name and student ID. To facilitate identification by the instructional team, we strongly recommend using the [Sharif webmail service](https://webmail.sharif.edu/).
        - Prof. Rohban (Instructor): [rohban@sharif.edu](mailto:rohban@sharif.edu)
        - Prof. Soleymani (Instructor): [soleymani@sharif.edu](mailto:soleymani@sharif.edu)
        - Mr. Samiei (Instructor): [mm.samiei@sharif.edu](mailto:mm.samiei@sharif.edu)
-       - Mr. Marioriyad (Head TA): [arash.marioriyad98@sharif.edu](mailto:arash.marioriyad98@sharif.edu)
+       - Mr. Salimi (Head TA): [s.salimi.moein@gmail.com](mailto:s.salimi.moein@gmail.com)
       
   - title: Content
     id: details
@@ -118,39 +156,41 @@ parts:
           
       - title: Grading
         text: |
-          Please note that grades will be calculated out of 20.0, 
+          Please note that grades will be calculated out of 21.0, 
           with the respective grades for each section provided below:
 
             - **Final Exam**: 6 points.
-            - **Quiz**: 4 points.
-            - **Homework & Projcet**: 7 points.
-            - **Poster Session**: 3 points.
+            - **Scheduled Quizzes**: 3 points.
+            - **UnScheduled Quizzes (Optional)**: 1 points.
+            - **Presentation**: 1 points.
+            - **Howeworks**: 4 points.
+            - **Project**: 5 points.
+            - **Poster Session**: 1 points.
       
       - title: Exam
         text: >
-          There is no midterm exam. The final exam will be held on **June 12, 2025, at 14:30 (UTC+3:30).**
+          There is no midterm exam. The final exam will be held on **June 28, 2026, at 8:00 AM (UTC+3:30).**
       
       - title: Quiz
         text: >
-          There will be four quizzes, all scheduled for **12:00 PM (UTC+3:30).**
+          There will be three scheduled quizzes (and one optional unscheduled quiz).
 
-            - **Quiz 1**: Sessions 1 to 10 - April 8, 2025.
-            - **Quiz 2**: Sessions 11 to 15 - April 29, 2025.
-            - **Quiz 3**: Sessions 16 to 19 - May 13, 2025.
-            - **Quiz 4**: Sessions 20 to 24 - June 3, 2025.
+            - **Quiz 1**: Sessions 1 to 10 - March 10, 2026 (Tue, Esfand 19).
+            - **Quiz 2**: Sessions 11 to 18 - May 10, 2026 (Sun, Ordibehesht 21).
+            - **Quiz 3**: Sessions 19 to 24 - May 31, 2026 (Tue, Khordad 10).
         
       - title: Homeworks
         text: >
           There will be four homework assignments in this course, all to be submitted via the [**Quera Website**](https://quera.org/course/20771). You have an additional **two days** after the deadline for late submissions. Throughout the semester, you are allowed a total of **five days of delayed submissions** without penalty. Beyond this limit, a **1% deduction** will be applied to the assignment grade for every **hour** of further delay. Due to the tight schedule, no deadline extensions will be granted during the semester.
 
-            - **HW 1**: Sessions 1 to 10 - From March 18, 2025 to April 11, 2025.
-            - **HW 2**: Sessions 11 to 18 - From April 14, 2025 to May 9, 2025.
-            - **HW 3**: Sessions 19 to 24 - From May 12, 2025 to May 30, 2025.
-            - **HW 4**: Sessions 25 to 28 - From June 2, 2025 to June 27, 2025.
+            - **HW 1**: Sessions 1 to 10 - Released March 13, 2026; deadline April 9, 2026.
+            - **HW 2**: Sessions 11 to 18 - Released April 10, 2026; deadline April 30, 2026.
+            - **HW 3**: Sessions 19 to 24 - Released May 1, 2026; deadline May 14, 2026.
+            - **HW 4**: Sessions 25 to 28 - Released May 15, 2026; deadline May 28, 2026.
 
       - title: Project
         text: >
-          Details about the project will be announced soon!
+          Key project milestones (from the course Events): Project Topic Selection deadline May 19, 2026; Proposal Presentation June 3, 2026; Project Progress Presentation to TAs (Part 1) June 11, 2026, (Part 2) July 26, 2026; Project deadline August 1, 2026. Further details will be announced on the Telegram channel.
           
       - title: Collaboration, Academic Honesty, and Plagiarism
         text: >
@@ -174,115 +214,115 @@ parts:
         display_name: Instructor
         size: 8
     rows:
-      - date: Sun, Bahman 21
+      - date: Sun, Esfand 3
         session: '1'
         topic: Introduction & Motivation
         instructor: Dr. Rohban & Mr. Samiei
-      - date: Tue, Bahman 23
+      - date: Tue, Esfand 5
         session: '2'
         topic: Introduction & Motivation
         instructor: Dr. Rohban & Mr. Samiei
-      - date: Sun, Bahman 28
+      - date: Sun, Esfand 10
         session: '3'
-        topic: Introduction & Motivation
-        instructor: Dr. Rohban & Mr. Samiei
-      - date: Tue, Bahman 30
+        topic: Neuro-symbolic
+        instructor: Dr. Rohban
+      - date: Tue, Esfand 12
         session: '4'
-        topic: NeuroSymbolic
+        topic: Neuro-symbolic
         instructor: Dr. Rohban
-      - date: Sun, Esfand 5
+      - date: Sun, Esfand 17
         session: '5'
-        topic: NeuroSymbolic
+        topic: Neuro-symbolic
         instructor: Dr. Rohban
-      - date: Tue, Esfand 7
+      - date: Tue, Esfand 19
         session: '6'
-        topic: NeuroSymbolic
+        topic: Neuro-symbolic
         instructor: Dr. Rohban
-      - date: Sun, Esfand 12
+      - date: Sun, Esfand 24
         session: '7'
-        topic: NeuroSymbolic
+        topic: Neuro-symbolic
         instructor: Dr. Rohban
-      - date: Tue, Esfand 14
+      - date: Tue, Esfand 26
         session: '8'
         topic: Program Synthesis
         instructor: Mr. Samiei
-      - date: Sun, Esfand 19
+      - date: Sun, Farvardin 2
         session: '9'
         topic: Program Synthesis
         instructor: Mr. Samiei
-      - date: Tue, Esfand 21
+      - date: Tue, Farvardin 4
         session: '10'
         topic: Program Synthesis
         instructor: Mr. Samiei
-      - date: Sun, Farvardin 17
+      - date: Sun, Farvardin 9
         session: '11'
         topic: LLM & Test Time Computation
         instructor: Mr. Samiei
-      - date: Tue, Farvardin 19
+      - date: Tue, Farvardin 11
         session: '12'
         topic: LLM & Test Time Computation
         instructor: Mr. Samiei
-      - date: Sun, Farvardin 24
+      - date: Sun, Farvardin 16
         session: '13'
         topic: LLM & Test Time Computation
         instructor: Dr. Soleymani
-      - date: Tue, Farvardin 26
+      - date: Tue, Farvardin 18
         session: '14'
         topic: LLM & Test Time Computation
         instructor: Dr. Soleymani
-      - date: Sun, Farvardin 31
+      - date: Sun, Farvardin 23
         session: '15'
-        topic: LLM & Test Time Adaptation
-        instructor: Dr. Rohban
-      - date: Tue, Ordibehesht 2
+        topic: Introduction to RL
+        instructor: Dr. Soleymani
+      - date: Tue, Farvardin 25
         session: '16'
         topic: LLM & RL
         instructor: Dr. Soleymani
-      - date: Sun, Ordibehesht 7
+      - date: Sun, Farvardin 30
         session: '17'
         topic: LLM & RL
         instructor: Dr. Soleymani
-      - date: Tue, Ordibehesht 9
+      - date: Tue, Ordibehesht 2
         session: '18'
         topic: LLM & RL
         instructor: Dr. Soleymani
-      - date: Sun, Ordibehesht 14
+      - date: Sun, Ordibehesht 7
         session: '19'
         topic: LLM & Abstraction
         instructor: Dr. Soleymani
-      - date: Tue, Ordibehesht 16
+      - date: Tue, Ordibehesht 9
         session: '20'
-        topic: Reasoning with KGs
+        topic: Uncertainty Estimation in LLMs
+        instructor: Dr. Rohban
+      - date: Sun, Ordibehesht 14
+        session: '21'
+        topic: Uncertainty Estimation in LLMs
+        instructor: Dr. Rohban
+      - date: Tue, Ordibehesht 16
+        session: '22'
+        topic: Diffusion Language Models
         instructor: Dr. Rohban
       - date: Sun, Ordibehesht 21
-        session: '21'
-        topic: Reasoning with KGs
+        session: '23'
+        topic: LLM Agents
         instructor: Dr. Rohban
       - date: Tue, Ordibehesht 23
-        session: '22'
-        topic: Reasoning with KGs
+        session: '24'
+        topic: LLM Agents
         instructor: Dr. Rohban
       - date: Sun, Ordibehesht 28
-        session: '23'
-        topic: LLM Agenst
-        instructor: Dr. Rohban
-      - date: Tue, Ordibehesht 30
-        session: '24'
-        topic: LLM Agenst
-        instructor: Dr. Rohban
-      - date: Sun, Khordad 4
         session: '25'
-        topic: Compositionality
+        topic: Open-endedness and Creativity
         instructor: Dr. Soleymani
-      - date: Tue, Khordad 6
+      - date: Tue, Ordibehesht 30
         session: '26'
-        topic: Compositionality
+        topic: CoT Faithfulness
         instructor: Dr. Soleymani
-      - date: Sun, Khordad 11
+      - date: Sun, Khordad 4
         session: '27'
-        topic: 
-        instructor:
-      - date: Sun, Khordad 13
+        topic: Complexity OOD
+        instructor: Dr. Rohban
+      - date: Tue, Khordad 6
         session: '28'
-        topic: 
-        instructor:
+        topic: Complexity OOD
+        instructor: Dr. Rohban
