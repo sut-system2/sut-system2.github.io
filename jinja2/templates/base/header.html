@@ -27,6 +27,9 @@
                   {% endif %}
                   hover:text-white
                "
+             {% if item.external %}
+             target="_blank"
+             {% endif %}
           >{{ item.text }}</a>
         </li>
         {% endfor %}

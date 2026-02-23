@@ -16,3 +16,6 @@ nav:
       text: HomeWorks
     - link: /poster_sessions
       text: Poster Session
+    - link: https://t.me/system2_spring2026
+      text: <i class="fab fa-telegram"></i> Telegram
+      external: true
