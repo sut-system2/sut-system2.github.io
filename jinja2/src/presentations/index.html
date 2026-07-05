@@ -1,0 +1,49 @@
+{% extends 'base/main_layout.html' %}
+
+{% block content %}
+
+  <div id="contentWrapper" class="w-full max-w-full flex flex-col gap-y-6 transition-all duration-300 pt-10 sm:pt-20 md:pt-10 lg:pt-10">
+
+    <div class="scrollable-section p-6 bg-white border border-gray-300 shadow-lg rounded-lg mb-6">
+      <div class="text-primary text-3xl font-bold text-blue-700 mb-4 border-b-2 pb-2">Presentations</div>
+      <div class="text-gray-700">{{ intro }}</div>
+    </div>
+
+    {% for phase in phases %}
+    <div id="{{ phase.title | lower | replace(' ', '-') }}" class="scrollable-section p-6 bg-white border border-gray-300 shadow-lg rounded-lg mb-6">
+      <div class="text-primary text-2xl font-bold text-blue-700 mb-6 border-b-2 pb-2">{{ phase.title }}</div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {% for p in phase.presentations %}
+        <div class="flex flex-col border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition duration-200 bg-gray-50">
+          <div class="relative w-full" style="padding-top: 56.25%;">
+            <iframe
+              class="absolute inset-0 w-full h-full"
+              src="https://www.aparat.com/video/video/embed/videohash/{{ p.hash }}/vt/frame"
+              title="{{ p.group }} - {{ p.title }}"
+              allowfullscreen
+              webkitallowfullscreen
+              mozallowfullscreen
+              allow="autoplay; fullscreen; picture-in-picture"
+              frameborder="0"
+              loading="lazy">
+            </iframe>
+          </div>
+          <div class="flex flex-col flex-grow p-4">
+            <div class="text-sm font-bold text-blue-700">{{ p.group }}</div>
+            <div class="text-gray-800 font-medium mt-1 flex-grow">{{ p.title }}</div>
+            <a href="https://www.aparat.com/v/{{ p.hash }}"
+               target="_blank" rel="noopener noreferrer"
+               class="inline-flex items-center gap-1 mt-3 text-sm text-blue-600 hover:text-blue-800 font-semibold hover:underline transition duration-200">
+              Watch on Aparat <i class="fa fa-external-link"></i>
+            </a>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+    {% endfor %}
+
+  </div>
+
+{% endblock %}

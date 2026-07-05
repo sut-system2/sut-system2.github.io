@@ -1,0 +1,52 @@
+intro: >
+  Project presentations for the System 2 course. Each phase contains the
+  recorded presentations of the student groups, hosted on
+  <a href="https://www.aparat.com" target="_blank" rel="noopener noreferrer"
+     class="text-blue-600 hover:text-blue-800 font-semibold hover:underline">Aparat</a>.
+  Use the players below to watch each group's presentation directly here.
+
+phases:
+  - title: Phase 2
+    presentations:
+      - group: Group 1
+        title: Reasoning-Aware Hallucination Detection in Large Language Models
+        hash: wmjfe23
+      - group: Group 2
+        title: LLM Unlearning
+        hash: bov72n4
+      - group: Group 3
+        title: LLM-as-a-Judge Reliability
+        hash: wix77vk
+      - group: Group 4
+        title: Verifier-guided multi-step reasoning
+        hash: ujvsh39
+      - group: Group 5
+        title: Mechanistic Interpretability of Reasoning
+        hash: lsjs08t
+      - group: Group 6
+        title: Reward Hacking in LLMs
+        hash: wkk01dm
+      - group: Group 7
+        title: Reasoning in VLMs
+        hash: oaotp8v
+      - group: Group 8
+        title: Uncertainty Self-awareness in LLMs
+        hash: ruvg36j
+      - group: Group 9
+        title: Recursive Reasoning Models
+        hash: dle61at
+      - group: Group 10
+        title: Latent Space Geometry Trajectories in Reasoning Models and Implicit Reasoning in LLMs
+        hash: rbw6a5h
+      - group: Group 11
+        title: Process Supervision for Multi-step Reasoning
+        hash: xsw89b7
+      - group: Group 12
+        title: Multi-agent System's Auditing and Failure Cases
+        hash: rfu3gvo
+      - group: Group 13
+        title: Compositionality in VLMs
+        hash: moyu1ps
+      - group: Group 14
+        title: Language Diffusion Models
+        hash: iuo3d1v

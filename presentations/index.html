@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>SUT-SYSTEM2</title>
+
+  <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+
+  <script src="/assets/js/fontawesome.js"></script>
+  <link href="/assets/css/main.css" rel="stylesheet" />
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS_HTML"></script>
+  <!-- MathJax configuration -->
+  <script type="text/x-mathjax-config" defer>
+    MathJax.Hub.Config({
+        config: ["MMLorHTML.js"],
+        jax: ["input/TeX", "output/HTML-CSS", "output/NativeMML"],
+        extensions: ["MathMenu.js", "MathZoom.js"],
+        tex2jax: {
+            inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+            displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+            processEscapes: true,
+            processEnvironments: true
+        },
+        // Center justify equations in code and markdown cells. Elsewhere
+        // we use CSS to left justify single line equations in code cells.
+        displayAlign: 'center',
+        "HTML-CSS": {
+            styles: {'.MathJax_Display': {"margin": 0}, '.MathJax': {"z-index": -10}},
+            linebreaks: { automatic: true }
+        }
+    });
+  </script>
+
+  <script src="/assets/js/tailwindcss.js"></script>
+  <script src="/assets/js/jquery-3.6.4.min.js"></script>
+</head>
+
+
+<body class="scroll-smooth">
+  
+  <div class="flex flex-col">
+    
+      <nav class="bg-gradient-to-b from-blue-900 to-blue-600 shadow-md w-full sticky top-0">
+  <div class="max-w-screen-2xl flex flex-wrap items-center justify-between md:justify-start mx-auto p-4 pb-0">
+    <a href="/" class="flex items-center mb-4">
+      <span class="self-center text-2xl font-semibold whitespace-nowrap text-white">SUT-SYSTEM2</span>
+    </a>
+    <button data-collapse-toggle="navbar-default" type="button"
+            class="inline-flex items-center p-2 w-10 h-10 justify-center mb-4 text-sm text-white-500 rounded-lg md:hidden hover:bg-white-100 focus:outline-none focus:ring-2 focus:ring-white-200 text-gray-400 hover:bg-white-700 focus:ring-white-600"
+            aria-controls="navbar-default" aria-expanded="false">
+      <span class="sr-only">Open main menu</span>
+      <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M1 1h15M1 7h15M1 13h15"/>
+      </svg>
+    </button>
+    <div class="hidden w-full md:block md:w-auto md:mb-4 md:ml-12" id="navbar-default">
+      <ul class="font-medium flex flex-col p-2 bg-transparent text-center border-t-2 border-t-white md:flex-row md:space-x-4 md:mt-0 md:p-0 md:border-t-0">
+        
+        
+        <li>
+          <a href="/"
+             class="
+                  block py-2 pl-3 pr-4
+                  
+                  text-gray-400
+                  
+                  hover:text-white
+               "
+          >Home</a>
+        </li>
+        
+        
+        <li>
+          <a href="/#people"
+             class="
+                  block py-2 pl-3 pr-4
+                  
+                  text-gray-400
+                  
+                  hover:text-white
+               "
+          >People</a>
+        </li>
+        
+        
+        <li>
+          <a href="/#details"
+             class="
+                  block py-2 pl-3 pr-4
+                  
+                  text-gray-400
+                  
+                  hover:text-white
+               "
+          >Details</a>
+        </li>
+        
+        
+        <li>
+          <a href="/#schedule"
+             class="
+                  block py-2 pl-3 pr-4
+                  
+                  text-gray-400
+                  
+                  hover:text-white
+               "
+          >Schedule</a>
+        </li>
+        
+        
+        <li>
+          <a href="/slides"
+             class="
+                  block py-2 pl-3 pr-4
+                  
+                  text-gray-400
+                  
+                  hover:text-white
+               "
+          >Slides</a>
+        </li>
+        
+        
+        <li>
+          <a href="/videos"
+             class="
+                  block py-2 pl-3 pr-4
+                  
+                  text-gray-400
+                  
+                  hover:text-white
+               "
+          >Videos</a>
+        </li>
+        
+        
+        <li>
+          <a href="/presentations"
+             class="
+                  block py-2 pl-3 pr-4
+                  
+                  text-white
+                  
+                  hover:text-white
+               "
+          >Presentations</a>
+        </li>
+        
+        <li>
+          <a href="/homeworks"
+             class="
+                  block py-2 pl-3 pr-4
+                  
+                  text-gray-400
+                  
+                  hover:text-white
+               "
+          >HomeWorks</a>
+        </li>
+        
+        
+        <li>
+          <a href="/poster_sessions"
+             class="
+                  block py-2 pl-3 pr-4
+                  
+                  text-gray-400
+                  
+                  hover:text-white
+               "
+          >Poster Session</a>
+        </li>
+        
+        
+        <li>
+          <a href="https://t.me/system2_spring2026"
+             class="
+                  block py-2 pl-3 pr-4
+                  
+                  text-gray-400
+                  
+                  hover:text-white
+               "
+             target="_blank"
+          ><i class="fab fa-telegram"></i> Telegram</a>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+    
+    <div class="flex-grow mt-1 px-4 md:px-10 pt-4 pb-4 md:max-w-screen-xl md:mx-auto md:w-full break-words">
+      
+
+  <div id="contentWrapper" class="w-full max-w-full flex flex-col gap-y-6 transition-all duration-300 pt-10 sm:pt-20 md:pt-10 lg:pt-10">
+
+    <div class="scrollable-section p-6 bg-white border border-gray-300 shadow-lg rounded-lg mb-6">
+      <div class="text-primary text-2xl font-bold text-blue-700 mb-4 border-b-2 pb-2">Presentations</div>
+      <div class="bg-blue-50 border-l-4 border-blue-500 p-4 rounded-r-lg mt-4 shadow-sm">
+        <p class="text-lg text-gray-800">
+          Project presentations for the System 2 course, grouped by phase. Each video is
+          hosted on <a href="https://www.aparat.com" target="_blank" rel="noopener noreferrer"
+          class="text-blue-600 hover:text-blue-800 font-semibold hover:underline">Aparat</a>
+          and can be played directly below.
+        </p>
+      </div>
+    </div>
+
+    <div id="phase-2" class="scrollable-section p-6 bg-white border border-gray-300 shadow-lg rounded-lg mb-6">
+      <div class="text-primary text-2xl font-bold text-blue-700 mb-6 border-b-2 pb-2">Phase 2</div>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div class="flex flex-col border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition duration-200 bg-gray-50">
+            <div class="relative w-full" style="padding-top: 56.25%;">
+              <iframe
+                class="absolute inset-0 w-full h-full"
+                src="https://www.aparat.com/video/video/embed/videohash/wmjfe23/vt/frame"
+                title="Group 1 - Reasoning-Aware Hallucination Detection in Large Language Models"
+                allowfullscreen webkitallowfullscreen mozallowfullscreen
+                allow="autoplay; fullscreen; picture-in-picture"
+                frameborder="0" loading="lazy"></iframe>
+            </div>
+            <div class="flex flex-col flex-grow p-4">
+              <div class="text-sm font-bold text-blue-700">Group 1</div>
+              <div class="text-gray-800 font-medium mt-1 flex-grow">Reasoning-Aware Hallucination Detection in Large Language Models</div>
+              <a href="https://www.aparat.com/v/wmjfe23" target="_blank" rel="noopener noreferrer"
+                 class="inline-flex items-center gap-1 mt-3 text-sm text-blue-600 hover:text-blue-800 font-semibold hover:underline transition duration-200">
+                Watch on Aparat <i class="fa fa-external-link"></i>
+              </a>
+            </div>
+          </div>
+          <div class="flex flex-col border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition duration-200 bg-gray-50">
+            <div class="relative w-full" style="padding-top: 56.25%;">
+              <iframe
+                class="absolute inset-0 w-full h-full"
+                src="https://www.aparat.com/video/video/embed/videohash/bov72n4/vt/frame"
+                title="Group 2 - LLM Unlearning"
+                allowfullscreen webkitallowfullscreen mozallowfullscreen
+                allow="autoplay; fullscreen; picture-in-picture"
+                frameborder="0" loading="lazy"></iframe>
+            </div>
+            <div class="flex flex-col flex-grow p-4">
+              <div class="text-sm font-bold text-blue-700">Group 2</div>
+              <div class="text-gray-800 font-medium mt-1 flex-grow">LLM Unlearning</div>
+              <a href="https://www.aparat.com/v/bov72n4" target="_blank" rel="noopener noreferrer"
+                 class="inline-flex items-center gap-1 mt-3 text-sm text-blue-600 hover:text-blue-800 font-semibold hover:underline transition duration-200">
+                Watch on Aparat <i class="fa fa-external-link"></i>
+              </a>
+            </div>
+          </div>
+          <div class="flex flex-col border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition duration-200 bg-gray-50">
+            <div class="relative w-full" style="padding-top: 56.25%;">
+              <iframe
+                class="absolute inset-0 w-full h-full"
+                src="https://www.aparat.com/video/video/embed/videohash/wix77vk/vt/frame"
+                title="Group 3 - LLM-as-a-Judge Reliability"
+                allowfullscreen webkitallowfullscreen mozallowfullscreen
+                allow="autoplay; fullscreen; picture-in-picture"
+                frameborder="0" loading="lazy"></iframe>
+            </div>
+            <div class="flex flex-col flex-grow p-4">
+              <div class="text-sm font-bold text-blue-700">Group 3</div>
+              <div class="text-gray-800 font-medium mt-1 flex-grow">LLM-as-a-Judge Reliability</div>
+              <a href="https://www.aparat.com/v/wix77vk" target="_blank" rel="noopener noreferrer"
+                 class="inline-flex items-center gap-1 mt-3 text-sm text-blue-600 hover:text-blue-800 font-semibold hover:underline transition duration-200">
+                Watch on Aparat <i class="fa fa-external-link"></i>
+              </a>
+            </div>
+          </div>
+          <div class="flex flex-col border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition duration-200 bg-gray-50">
+            <div class="relative w-full" style="padding-top: 56.25%;">
+              <iframe
+                class="absolute inset-0 w-full h-full"
+                src="https://www.aparat.com/video/video/embed/videohash/ujvsh39/vt/frame"
+                title="Group 4 - Verifier-guided Multi-step Reasoning"
+                allowfullscreen webkitallowfullscreen mozallowfullscreen
+                allow="autoplay; fullscreen; picture-in-picture"
+                frameborder="0" loading="lazy"></iframe>
+            </div>
+            <div class="flex flex-col flex-grow p-4">
+              <div class="text-sm font-bold text-blue-700">Group 4</div>
+              <div class="text-gray-800 font-medium mt-1 flex-grow">Verifier-guided Multi-step Reasoning</div>
+              <a href="https://www.aparat.com/v/ujvsh39" target="_blank" rel="noopener noreferrer"
+                 class="inline-flex items-center gap-1 mt-3 text-sm text-blue-600 hover:text-blue-800 font-semibold hover:underline transition duration-200">
+                Watch on Aparat <i class="fa fa-external-link"></i>
+              </a>
+            </div>
+          </div>
+          <div class="flex flex-col border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition duration-200 bg-gray-50">
+            <div class="relative w-full" style="padding-top: 56.25%;">
+              <iframe
+                class="absolute inset-0 w-full h-full"
+                src="https://www.aparat.com/video/video/embed/videohash/lsjs08t/vt/frame"
+                title="Group 5 - Mechanistic Interpretability of Reasoning"
+                allowfullscreen webkitallowfullscreen mozallowfullscreen
+                allow="autoplay; fullscreen; picture-in-picture"
+                frameborder="0" loading="lazy"></iframe>
+            </div>
+            <div class="flex flex-col flex-grow p-4">
+              <div class="text-sm font-bold text-blue-700">Group 5</div>
+              <div class="text-gray-800 font-medium mt-1 flex-grow">Mechanistic Interpretability of Reasoning</div>
+              <a href="https://www.aparat.com/v/lsjs08t" target="_blank" rel="noopener noreferrer"
+                 class="inline-flex items-center gap-1 mt-3 text-sm text-blue-600 hover:text-blue-800 font-semibold hover:underline transition duration-200">
+                Watch on Aparat <i class="fa fa-external-link"></i>
+              </a>
+            </div>
+          </div>
+          <div class="flex flex-col border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition duration-200 bg-gray-50">
+            <div class="relative w-full" style="padding-top: 56.25%;">
+              <iframe
+                class="absolute inset-0 w-full h-full"
+                src="https://www.aparat.com/video/video/embed/videohash/wkk01dm/vt/frame"
+                title="Group 6 - Reward Hacking in LLMs"
+                allowfullscreen webkitallowfullscreen mozallowfullscreen
+                allow="autoplay; fullscreen; picture-in-picture"
+                frameborder="0" loading="lazy"></iframe>
+            </div>
+            <div class="flex flex-col flex-grow p-4">
+              <div class="text-sm font-bold text-blue-700">Group 6</div>
+              <div class="text-gray-800 font-medium mt-1 flex-grow">Reward Hacking in LLMs</div>
+              <a href="https://www.aparat.com/v/wkk01dm" target="_blank" rel="noopener noreferrer"
+                 class="inline-flex items-center gap-1 mt-3 text-sm text-blue-600 hover:text-blue-800 font-semibold hover:underline transition duration-200">
+                Watch on Aparat <i class="fa fa-external-link"></i>
+              </a>
+            </div>
+          </div>
+          <div class="flex flex-col border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition duration-200 bg-gray-50">
+            <div class="relative w-full" style="padding-top: 56.25%;">
+              <iframe
+                class="absolute inset-0 w-full h-full"
+                src="https://www.aparat.com/video/video/embed/videohash/oaotp8v/vt/frame"
+                title="Group 7 - Reasoning in VLMs"
+                allowfullscreen webkitallowfullscreen mozallowfullscreen
+                allow="autoplay; fullscreen; picture-in-picture"
+                frameborder="0" loading="lazy"></iframe>
+            </div>
+            <div class="flex flex-col flex-grow p-4">
+              <div class="text-sm font-bold text-blue-700">Group 7</div>
+              <div class="text-gray-800 font-medium mt-1 flex-grow">Reasoning in VLMs</div>
+              <a href="https://www.aparat.com/v/oaotp8v" target="_blank" rel="noopener noreferrer"
+                 class="inline-flex items-center gap-1 mt-3 text-sm text-blue-600 hover:text-blue-800 font-semibold hover:underline transition duration-200">
+                Watch on Aparat <i class="fa fa-external-link"></i>
+              </a>
+            </div>
+          </div>
+          <div class="flex flex-col border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition duration-200 bg-gray-50">
+            <div class="relative w-full" style="padding-top: 56.25%;">
+              <iframe
+                class="absolute inset-0 w-full h-full"
+                src="https://www.aparat.com/video/video/embed/videohash/ruvg36j/vt/frame"
+                title="Group 8 - Uncertainty Self-awareness in LLMs"
+                allowfullscreen webkitallowfullscreen mozallowfullscreen
+                allow="autoplay; fullscreen; picture-in-picture"
+                frameborder="0" loading="lazy"></iframe>
+            </div>
+            <div class="flex flex-col flex-grow p-4">
+              <div class="text-sm font-bold text-blue-700">Group 8</div>
+              <div class="text-gray-800 font-medium mt-1 flex-grow">Uncertainty Self-awareness in LLMs</div>
+              <a href="https://www.aparat.com/v/ruvg36j" target="_blank" rel="noopener noreferrer"
+                 class="inline-flex items-center gap-1 mt-3 text-sm text-blue-600 hover:text-blue-800 font-semibold hover:underline transition duration-200">
+                Watch on Aparat <i class="fa fa-external-link"></i>
+              </a>
+            </div>
+          </div>
+          <div class="flex flex-col border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition duration-200 bg-gray-50">
+            <div class="relative w-full" style="padding-top: 56.25%;">
+              <iframe
+                class="absolute inset-0 w-full h-full"
+                src="https://www.aparat.com/video/video/embed/videohash/dle61at/vt/frame"
+                title="Group 9 - Recursive Reasoning Models"
+                allowfullscreen webkitallowfullscreen mozallowfullscreen
+                allow="autoplay; fullscreen; picture-in-picture"
+                frameborder="0" loading="lazy"></iframe>
+            </div>
+            <div class="flex flex-col flex-grow p-4">
+              <div class="text-sm font-bold text-blue-700">Group 9</div>
+              <div class="text-gray-800 font-medium mt-1 flex-grow">Recursive Reasoning Models</div>
+              <a href="https://www.aparat.com/v/dle61at" target="_blank" rel="noopener noreferrer"
+                 class="inline-flex items-center gap-1 mt-3 text-sm text-blue-600 hover:text-blue-800 font-semibold hover:underline transition duration-200">
+                Watch on Aparat <i class="fa fa-external-link"></i>
+              </a>
+            </div>
+          </div>
+          <div class="flex flex-col border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition duration-200 bg-gray-50">
+            <div class="relative w-full" style="padding-top: 56.25%;">
+              <iframe
+                class="absolute inset-0 w-full h-full"
+                src="https://www.aparat.com/video/video/embed/videohash/rbw6a5h/vt/frame"
+                title="Group 10 - Latent Space Geometry Trajectories in Reasoning Models and Implicit Reasoning in LLMs"
+                allowfullscreen webkitallowfullscreen mozallowfullscreen
+                allow="autoplay; fullscreen; picture-in-picture"
+                frameborder="0" loading="lazy"></iframe>
+            </div>
+            <div class="flex flex-col flex-grow p-4">
+              <div class="text-sm font-bold text-blue-700">Group 10</div>
+              <div class="text-gray-800 font-medium mt-1 flex-grow">Latent Space Geometry Trajectories in Reasoning Models and Implicit Reasoning in LLMs</div>
+              <a href="https://www.aparat.com/v/rbw6a5h" target="_blank" rel="noopener noreferrer"
+                 class="inline-flex items-center gap-1 mt-3 text-sm text-blue-600 hover:text-blue-800 font-semibold hover:underline transition duration-200">
+                Watch on Aparat <i class="fa fa-external-link"></i>
+              </a>
+            </div>
+          </div>
+          <div class="flex flex-col border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition duration-200 bg-gray-50">
+            <div class="relative w-full" style="padding-top: 56.25%;">
+              <iframe
+                class="absolute inset-0 w-full h-full"
+                src="https://www.aparat.com/video/video/embed/videohash/xsw89b7/vt/frame"
+                title="Group 11 - Process Supervision for Multi-step Reasoning"
+                allowfullscreen webkitallowfullscreen mozallowfullscreen
+                allow="autoplay; fullscreen; picture-in-picture"
+                frameborder="0" loading="lazy"></iframe>
+            </div>
+            <div class="flex flex-col flex-grow p-4">
+              <div class="text-sm font-bold text-blue-700">Group 11</div>
+              <div class="text-gray-800 font-medium mt-1 flex-grow">Process Supervision for Multi-step Reasoning</div>
+              <a href="https://www.aparat.com/v/xsw89b7" target="_blank" rel="noopener noreferrer"
+                 class="inline-flex items-center gap-1 mt-3 text-sm text-blue-600 hover:text-blue-800 font-semibold hover:underline transition duration-200">
+                Watch on Aparat <i class="fa fa-external-link"></i>
+              </a>
+            </div>
+          </div>
+          <div class="flex flex-col border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition duration-200 bg-gray-50">
+            <div class="relative w-full" style="padding-top: 56.25%;">
+              <iframe
+                class="absolute inset-0 w-full h-full"
+                src="https://www.aparat.com/video/video/embed/videohash/rfu3gvo/vt/frame"
+                title="Group 12 - Multi-agent System's Auditing and Failure Cases"
+                allowfullscreen webkitallowfullscreen mozallowfullscreen
+                allow="autoplay; fullscreen; picture-in-picture"
+                frameborder="0" loading="lazy"></iframe>
+            </div>
+            <div class="flex flex-col flex-grow p-4">
+              <div class="text-sm font-bold text-blue-700">Group 12</div>
+              <div class="text-gray-800 font-medium mt-1 flex-grow">Multi-agent System's Auditing and Failure Cases</div>
+              <a href="https://www.aparat.com/v/rfu3gvo" target="_blank" rel="noopener noreferrer"
+                 class="inline-flex items-center gap-1 mt-3 text-sm text-blue-600 hover:text-blue-800 font-semibold hover:underline transition duration-200">
+                Watch on Aparat <i class="fa fa-external-link"></i>
+              </a>
+            </div>
+          </div>
+          <div class="flex flex-col border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition duration-200 bg-gray-50">
+            <div class="relative w-full" style="padding-top: 56.25%;">
+              <iframe
+                class="absolute inset-0 w-full h-full"
+                src="https://www.aparat.com/video/video/embed/videohash/moyu1ps/vt/frame"
+                title="Group 13 - Compositionality in VLMs"
+                allowfullscreen webkitallowfullscreen mozallowfullscreen
+                allow="autoplay; fullscreen; picture-in-picture"
+                frameborder="0" loading="lazy"></iframe>
+            </div>
+            <div class="flex flex-col flex-grow p-4">
+              <div class="text-sm font-bold text-blue-700">Group 13</div>
+              <div class="text-gray-800 font-medium mt-1 flex-grow">Compositionality in VLMs</div>
+              <a href="https://www.aparat.com/v/moyu1ps" target="_blank" rel="noopener noreferrer"
+                 class="inline-flex items-center gap-1 mt-3 text-sm text-blue-600 hover:text-blue-800 font-semibold hover:underline transition duration-200">
+                Watch on Aparat <i class="fa fa-external-link"></i>
+              </a>
+            </div>
+          </div>
+          <div class="flex flex-col border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition duration-200 bg-gray-50">
+            <div class="relative w-full" style="padding-top: 56.25%;">
+              <iframe
+                class="absolute inset-0 w-full h-full"
+                src="https://www.aparat.com/video/video/embed/videohash/iuo3d1v/vt/frame"
+                title="Group 14 - Language Diffusion Models"
+                allowfullscreen webkitallowfullscreen mozallowfullscreen
+                allow="autoplay; fullscreen; picture-in-picture"
+                frameborder="0" loading="lazy"></iframe>
+            </div>
+            <div class="flex flex-col flex-grow p-4">
+              <div class="text-sm font-bold text-blue-700">Group 14</div>
+              <div class="text-gray-800 font-medium mt-1 flex-grow">Language Diffusion Models</div>
+              <a href="https://www.aparat.com/v/iuo3d1v" target="_blank" rel="noopener noreferrer"
+                 class="inline-flex items-center gap-1 mt-3 text-sm text-blue-600 hover:text-blue-800 font-semibold hover:underline transition duration-200">
+                Watch on Aparat <i class="fa fa-external-link"></i>
+              </a>
+            </div>
+          </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const sidebar = document.getElementById("sidebar");
+      const toggleButton = document.getElementById("toggleSidebar");
+      const contentWrapper = document.getElementById("contentWrapper");
+  
+      if (window.innerWidth < 640) {
+        contentWrapper.classList.add("pt-20");
+      }
+  
+      if (toggleButton && sidebar) {
+        toggleButton.addEventListener("click", function () {
+          if (sidebar.classList.contains("-translate-x-64")) {
+            sidebar.classList.remove("-translate-x-64");
+            contentWrapper.style.marginLeft = sidebar.offsetWidth + "px";
+          } else {
+            sidebar.classList.add("-translate-x-64");
+            contentWrapper.style.marginLeft = "0px";
+          }
+        });
+      }
+    });
+  </script>
+  
+
+  <style>
+    /* Hide sidebar initially */
+    #sidebar.-translate-x-64 {
+      transform: translateX(-100%);
+    }
+  </style>
+
+
+    </div>
+
+    <!-- Back to top button -->
+    <button
+      type="button"
+      data-mdb-ripple="true"
+      data-mdb-ripple-color="light"
+      class="inline-block p-3 bg-blue-400 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-blue-500 hover:shadow-lg focus:bg-blue-500 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-600 active:shadow-lg transition duration-150 ease-in-out hidden bottom-5 right-5 fixed"
+      id="btn-back-to-top"
+    >
+      <svg
+        aria-hidden="true"
+        focusable="false"
+        data-prefix="fas"
+        class="w-4 h-4"
+        role="img"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 448 512"
+      >
+        <path
+          fill="currentColor"
+          d="M34.9 289.5l-22.2-22.2c-9.4-9.4-9.4-24.6 0-33.9L207 39c9.4-9.4 24.6-9.4 33.9 0l194.3 194.3c9.4 9.4 9.4 24.6 0 33.9L413 289.4c-9.5 9.5-25 9.3-34.3-.4L264 168.6V456c0 13.3-10.7 24-24 24h-32c-13.3 0-24-10.7-24-24V168.6L69.2 289.1c-9.3 9.8-24.8 10-34.3.4z"
+        ></path>
+      </svg>
+    </button>
+
+    <script>
+      // Get the button
+      let backToTopBtn = document.getElementById('btn-back-to-top');
+
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.addEventListener('scroll', function () {
+        scrollFunction();
+      }, { get passive() { supportsPassive = true; } });
+
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          backToTopBtn.style.display = 'block';
+        } else {
+          backToTopBtn.style.display = 'none';
+        }
+      }
+      // When the user clicks on the button, scroll to the top of the document
+      backToTopBtn.addEventListener('click', backToTop);
+
+      function backToTop() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+  </div>
+
+
+  <script src="/assets/js/flowbite-1.6.5.min.js"></script>
+</body>
+
+</html>
