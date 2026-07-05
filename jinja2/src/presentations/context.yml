@@ -1,10 +1,3 @@
-intro: >
-  Project presentations for the System 2 course. Each phase contains the
-  recorded presentations of the student groups, hosted on
-  <a href="https://www.aparat.com" target="_blank" rel="noopener noreferrer"
-     class="text-blue-600 hover:text-blue-800 font-semibold hover:underline">Aparat</a>.
-  Use the players below to watch each group's presentation directly here.
-
 phases:
   - title: Phase 2
     presentations:
